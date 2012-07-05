@@ -54,7 +54,7 @@
             license="EPL"
             name="m2eclipse 1.0.100"
             provider="Eclipse, JBoss, Sonatype, VMware"
-            platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=4.2.0))"
+            platformFilter="(&amp;(platform.version&gt;=3.6.0)(com.springsource.sts.version&gt;=2.8.1))"
             siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
@@ -81,7 +81,7 @@
             license="EPL"
             name="m2eclipse 0.12"
             provider="Eclipse, JBoss, Sonatype, VMware"
-            platformFilter="(platform.version&gt;=3.6.0)"
+            platformFilter="(&amp;(platform.version&gt;=3.6.0)(com.springsource.sts.version&gt;=2.8.1))"
             siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2eclipse-012">
          <iu id="org.maven.ide.eclipse.feature" />
          <iu id="org.maven.ide.eclipse.wtp.feature" />
@@ -166,7 +166,6 @@
                url="http://pmd.sourceforge.net/">
          </overview>
       </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="The purpose of the Groovy Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers."
@@ -176,8 +175,8 @@
             groupId="certified"
             name="Groovy Eclipse"
             provider="Codehaus.org"
-            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.7">
+            platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.6.9))"
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.6">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <iu id="org.codehaus.groovy.m2eclipse" />
          <iu id="org.codehaus.groovy18.feature" />
@@ -197,8 +196,8 @@
             groupId="certified"
             name="Groovy Eclipse"
             provider="Codehaus.org"
-            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.8">
+            platformFilter="(platform.version&gt;=3.7.0)"
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <iu id="org.codehaus.groovy.m2eclipse" />
          <iu id="org.codehaus.groovy18.feature" />
@@ -209,40 +208,17 @@
                url="http://groovy.codehaus.org/Eclipse+Plugin">
          </overview>
       </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="The purpose of the Groovy Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers."
-            id="org.codehaus.groovy.eclipse.feature"
-            kind="task, document"
-            license="Free, EPL/ASL"
-            groupId="certified"
-            name="Groovy Eclipse"
-            provider="Codehaus.org"
-            platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e4.2">
-         <iu id="org.codehaus.groovy.eclipse.feature" />
-         <iu id="org.codehaus.groovy.m2eclipse" />
-         <iu id="org.codehaus.groovy18.feature" />
-         <icon
-               image32="images/groovy_32.png"></icon>
-         <overview
-               summary="The purpose of the Groovy Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
-               url="http://groovy.codehaus.org/Eclipse+Plugin">
-         </overview>
-      </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
-            id="org.grails.ide.eclipse"
+            id="com.springsource.sts.grails"
             kind="task, document"
             groupId="certified"
-            license="Free, EPL"
+            license="Free, Commercial"
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.7">
+            platformFilter="(platform.version&lt;=3.5.9)"
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.5">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -251,18 +227,17 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
-            id="org.grails.ide.eclipse"
+            id="com.springsource.sts.grails"
             kind="task, document"
             groupId="certified"
-            license="Free, EPL"
+            license="Free, Commercial"
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.8">
+            platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.6.9))"
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.6">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -271,18 +246,17 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
-            id="org.grails.ide.eclipse"
+            id="com.springsource.sts.grails"
             kind="task, document"
             groupId="certified"
-            license="Free, EPL"
+            license="Free, Commercial"
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e4.2">
+            platformFilter="(platform.version&gt;=3.7.0)"
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -291,18 +265,17 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
             id="com.springsource.sts.gradle.feature"
             kind="task, document"
             groupId="certified"
-            license="Free, EPL"
+            license="Free, Commercial"
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=3.6.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/gradle">
+            siteUrl="http://dist.springsource.com/release/TOOLS/gradle">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -311,69 +284,6 @@
                url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
          </overview>
       </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Full-featured support for working with Spring projects"
-            id="org.springframework.ide.eclipse.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring IDE"
-            provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7/">
-         <iu id="org.springframework.ide.eclipse.feature" />
-         <iu id="org.springframework.ide.eclipse.aop.feature" />
-         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
-         <iu id="org.springframework.ide.eclipse.osgi.feature" />
-         <iu id="org.springframework.ide.eclipse.security.feature" />
-         <iu id="org.springframework.ide.eclipse.webflow.feature" />
-         <iu id="org.springframework.ide.eclipse.batch.feature" />
-         <iu id="org.springframework.ide.eclipse.integration.feature" />
-         <iu id="org.springframework.ide.eclipse.autowire.feature" />
-         <iu id="org.springframework.ide.eclipse.roo.feature" />
-         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
-         <iu id="org.springframework.ide.eclipse.maven.feature" />
-         <icon
-               image32="images/springsource_32.png">
-         </icon>
-         <overview
-               summary="Full-featured support for working with Spring projects.">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Full-featured support for working with Spring projects"
-            id="org.springframework.ide.eclipse.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring IDE"
-            provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2/">
-         <iu id="org.springframework.ide.eclipse.feature" />
-         <iu id="org.springframework.ide.eclipse.aop.feature" />
-         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
-         <iu id="org.springframework.ide.eclipse.osgi.feature" />
-         <iu id="org.springframework.ide.eclipse.security.feature" />
-         <iu id="org.springframework.ide.eclipse.webflow.feature" />
-         <iu id="org.springframework.ide.eclipse.batch.feature" />
-         <iu id="org.springframework.ide.eclipse.integration.feature" />
-         <iu id="org.springframework.ide.eclipse.autowire.feature" />
-         <iu id="org.springframework.ide.eclipse.roo.feature" />
-         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
-         <iu id="org.springframework.ide.eclipse.maven.feature" />
-         <icon
-               image32="images/springsource_32.png">
-         </icon>
-         <overview
-               summary="Full-featured support for working with Spring projects.">
-         </overview>
-      </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.frameworks"
             description="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
@@ -429,7 +339,6 @@
                url="http://www.grails.org">
          </overview>
       </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Infinitest is a continuous test runner for JUnit tests. Whenever you change a class, Infinitest runs your tests for you. It’s smart about what tests to run."
@@ -582,12 +491,12 @@
       </connectorDescriptor> -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
-            description="VMware vFabric tc Server Developer Edition enhances Apache Tomcat to provide Java developers insight into the performance and behavior of their Spring applications."
+            description="SpringSource tc Server Developer Edition enhances Apache Tomcat to provide Java developers insight into the performance and behavior of their Spring applications."
             id="com.springsource.server.tc.bundle"
             kind="task"
             license="Commercial"
-            name="VMware vFabric tc Server Developer Edition"
-            provider="VMware, Inc."
+            name="SpringSource tc Server Developer Edition"
+            provider="SpringSource, a division of VMware, Inc."
             siteUrl="http://dist.springsource.com/release/TOOLS/extensions/e3.5">
          <icon
                image32="images/springsource_32.png">
@@ -643,16 +552,15 @@
       </connectorDescriptor>
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
-            description="The integration supports managing application deployments, service bindings and instance scaling, and debugging on VMware Cloud Foundry"
+            description="The integration supports managing application deployments, service bindings and instance scaling on VMware Cloud Foundry"
             kind="task"
-            id="org.cloudfoundry.ide.eclipse.server"
-            license="Free, EPL"
-            name="Cloud Foundry Integration for Eclipse"
-            platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
+            id="com.cloudfoundry.sts.server"
+            license="Free, Commercial"
+            name="Cloud Foundry Integration"
+            platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
             provider="VMware, Inc."
-            siteUrl="http://dist.springsource.com/release/TOOLS/cloudfoundry">
-         <iu id="org.cloudfoundry.ide.eclipse.server" />
-         <iu id="org.springframework.ide.eclipse.uaa.feature" />
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/cloud/e3.6">
+         <iu id="com.cloudfoundry.sts.server" />
          <icon
                image32="images/cloudfoundry_32.png">
          </icon>
@@ -710,7 +618,7 @@
             license="Free, EPL"
             name="Eclipse Marketplace Client"
             provider="Eclipse EPP"
-            platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.6.9))"
+            platformFilter="(platform.version&lt;=3.6.9)"
             siteUrl="http://download.eclipse.org/releases/helios">
          <iu id="org.eclipse.epp.mpc" />
          <icon
@@ -729,7 +637,7 @@
             license="Free, EPL"
             name="Eclipse Marketplace Client"
             provider="Eclipse EPP"
-            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
+            platformFilter="(platform.version&gt;=3.7.0)"
             siteUrl="http://download.eclipse.org/releases/indigo">
          <iu id="org.eclipse.epp.mpc" />
          <icon
@@ -741,34 +649,15 @@
       </connectorDescriptor>
 
       <connectorDescriptor
-            categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
-            description="Client to install components from the Eclipse Marketplace. SpringSource does not make any guarantees for those components."
-            id="org.eclipse.epp.mpc"
-            kind="task"
-            license="Free, EPL"
-            name="Eclipse Marketplace Client"
-            provider="Eclipse EPP"
-            platformFilter="(platform.version&gt;=3.8.0)"
-            siteUrl="http://download.eclipse.org/releases/juno">
-         <iu id="org.eclipse.epp.mpc" />
-         <icon
-               image32="images/eclipse_32.gif">
-         </icon>
-         <overview
-               url="http://www.eclipse.org/mpc/">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support.experimental"
-            description="The Scala IDE for Eclipse together with the corresponding Maven integration."
+            description="The Scala IDE for Eclipse (2.0.0 beta) together with the corresponding Maven integration."
             kind="task"
             id="org.scala-ide.sdt.feature"
             license="Free, EPL"
             name="Scala IDE for Eclipse"
             platformFilter="(platform.version&gt;=3.6.0)"
             provider="scala-ide.org (Scala IDE for Eclipse) and Sonatype, Inc. (m2eclipse-scala)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/scala/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/scala/e3.7">
          <iu id="org.maven.ide.eclipse.scala_feature" />
          <iu id="org.scala-ide.sdt.feature" />
          <icon
