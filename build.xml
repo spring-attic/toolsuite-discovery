@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="build" default="build-discovery" basedir="." xmlns:antcontrib="antlib:net.sf.antcontrib">
 	
+	<property file="${dist.properties}"/>
+	
 	<macrodef name="extract-version">
 		<attribute name="property"/>
 		<attribute name="file"/>
@@ -55,7 +57,7 @@
 		
 		<taskdef name="s3" classname="org.springframework.build.aws.ant.SimpleStorageService" classpathref="s3.classpath"/>
 
-		<s3 accessKey="${dist.accessKey}" secretKey="${dist.secretKey}">
+		<s3 accessKey="${accessKey}" secretKey="${secretKey}">
 			
 			<upload bucketName="dist.springsource.com" toDir="release/STS/discovery" publicRead="true">
 				<fileset dir="${basedir}/target/">
