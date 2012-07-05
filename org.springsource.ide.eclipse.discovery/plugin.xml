@@ -73,6 +73,7 @@
          </overview>
       </connectorDescriptor>
 
+<!-- FIXADE TODO JUST TESTING this should not stay commented out
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Composite install of the legacy m2e v0.12 components.  Use this extension to revert to an older version of m2e and automatically uninstall all other versions."
@@ -98,6 +99,7 @@
                url="http://m2eclipse.sonatype.org/archived-releases.html">
          </overview>
       </connectorDescriptor>
+-->
 
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
