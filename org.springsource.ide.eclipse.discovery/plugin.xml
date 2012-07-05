@@ -54,7 +54,7 @@
             license="EPL"
             name="m2eclipse 1.0.100"
             provider="Eclipse, JBoss, Sonatype, VMware"
-            platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=4.2.0))"
+            platformFilter="(platform.version&gt;=3.6.0)"
             siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
@@ -73,7 +73,6 @@
          </overview>
       </connectorDescriptor>
 
-<!-- FIXADE TODO JUST TESTING this should not stay commented out
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Composite install of the legacy m2e v0.12 components.  Use this extension to revert to an older version of m2e and automatically uninstall all other versions."
@@ -99,7 +98,6 @@
                url="http://m2eclipse.sonatype.org/archived-releases.html">
          </overview>
       </connectorDescriptor>
--->
 
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
