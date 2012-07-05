@@ -49,6 +49,7 @@
 		
 	<target name="deploy-discovery">
 		<echo>Publishing to Amazon S3</echo>
+		<echo>${env.dist_properties}</echo>
 		
 		<path id="s3.classpath"> 
 		    <fileset dir="${basedir}/tools/s3-libs">
