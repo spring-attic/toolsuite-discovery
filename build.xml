@@ -22,16 +22,12 @@
 		</sequential>
 	</macrodef>
 	
-	<property file="${dist.properties}"/>
+	<property environment="env"/>
+	<property file="${env.dist_properties}"/>
 	
 	<target name="build-and-deploy">
 		<antcall target="build-discovery"/>
-		
-		<antcall target="deploy-discovery">
-			<param name="accessKey" value="${accessKey}"/>
-			<param name="secretKey" value="${secretKey}"/>
-		</antcall>
-
+		<antcall target="deploy-discovery"/>
 	</target>
 	
 	<target name="build-discovery">
@@ -53,7 +49,6 @@
 		
 	<target name="deploy-discovery">
 		<echo>Publishing to Amazon S3</echo>
-		<echo>${dist.properties}</echo>
 		
 		<path id="s3.classpath"> 
 		    <fileset dir="${basedir}/tools/s3-libs">
