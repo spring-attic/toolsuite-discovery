@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build" default="discovery" basedir="." xmlns:antcontrib="antlib:net.sf.antcontrib">
+	
+	<macrodef name="extract-version">
+		<attribute name="property"/>
+		<attribute name="file"/>
+		<sequential>
+			<loadfile property="@{property}" srcFile="@{file}">
+				<filterchain>
+					<linecontains>
+						<contains value="Bundle-Version: "/>
+					</linecontains>
+					<striplinebreaks/>
+					<tokenfilter>
+					      <filetokenizer/>
+					      <replaceregex pattern="Bundle-Version: ([0-9.]*).qualifier"
+					                    flags="s"
+					                    replace="\1"/>
+					</tokenfilter>
+				</filterchain>
+			</loadfile>
+		</sequential>
+	</macrodef>
+	
+	<target name="discovery">
+		<property name="discovery.dir" value="${basedir}/org.springsource.ide.eclipse.discovery"/>
+
+		<echo>${basedir}</echo>
+		<echo>${discovery.dir}</echo>
+
+		<extract-version property="discovery.version" file="${discovery.dir}/META-INF/MANIFEST.MF"/>
+
+		<mkdir dir="${basedir}/target"/>
+		<property name="discovery.jar" value="${basedir}/target/org.springsource.ide.eclipse.discovery-${discovery.version}.jar"/>
+		<property file="${discovery.dir}/build.properties" prefix="build.properties"/>
+		<echo>Packing discovery directory ${discovery.version}</echo>
+		<jar destfile="${discovery.jar}" update="false" manifest="${discovery.dir}/META-INF/MANIFEST.MF">
+			<fileset dir="${discovery.dir}" includes="${build.properties.bin.includes}"/>
+		</jar>
+	</target>
+	
+</project>
