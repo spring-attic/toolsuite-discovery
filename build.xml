@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="build" default="discovery" basedir="." xmlns:antcontrib="antlib:net.sf.antcontrib">
+<project name="build" default="build-discovery" basedir="." xmlns:antcontrib="antlib:net.sf.antcontrib">
 	
 	<macrodef name="extract-version">
 		<attribute name="property"/>
@@ -22,7 +22,12 @@
 		</sequential>
 	</macrodef>
 	
-	<target name="discovery">
+	<target name="build-and-deploy">
+		<antcall target="build-discovery"/>
+		<antcall target="deploy-discovery"/>
+	</target>
+	
+	<target name="build-discovery">
 		<property name="discovery.dir" value="${basedir}/org.springsource.ide.eclipse.discovery"/>
 
 		<echo>${basedir}</echo>
@@ -37,6 +42,28 @@
 		<jar destfile="${discovery.jar}" update="false" manifest="${discovery.dir}/META-INF/MANIFEST.MF">
 			<fileset dir="${discovery.dir}" includes="${build.properties.bin.includes}"/>
 		</jar>
+	</target>
+		
+	<target name="deploy-discovery">
+		<echo>Publishing to Amazon S3</echo>
+		
+		<path id="s3.classpath"> 
+		    <fileset dir="${basedir}/tools/s3-libs">
+		        <include name="**/*.jar" /> 
+			</fileset> 
+		</path> 
+		
+		<taskdef name="s3" classname="org.springframework.build.aws.ant.SimpleStorageService" classpathref="s3.classpath"/>
+
+		<s3 accessKey="${accessKey}" secretKey="${secretKey}">
+			
+			<upload bucketName="dist.springsource.com" toDir="release/STS/discovery" publicRead="true">
+				<fileset dir="${basedir}/target/">
+					<include name="**" />
+				</fileset>
+			</upload>
+
+		</s3>
 	</target>
 	
 </project>
