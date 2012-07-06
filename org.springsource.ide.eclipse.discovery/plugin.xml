@@ -56,7 +56,7 @@
             name="m2eclipse 1.1"
             provider="Eclipse, JBoss, Sonatype, VMware"
             platformFilter="(platform.version&gt;=3.7.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e/">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e-juno/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
          <iu id="org.sonatype.m2e.mavenarchiver.feature" />
