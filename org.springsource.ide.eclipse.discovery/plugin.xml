@@ -46,15 +46,16 @@
             relevance="80">
       </connectorCategory>
       
+      <!-- m2e -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.patches"
-            description="Composite install of the latest m2e v1.0 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
+            description="Composite install of the latest m2e v1.1 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
             id="org.eclipse.m2e.feature"
             kind="task, document"
             license="EPL"
-            name="m2eclipse 1.0.100"
+            name="m2eclipse 1.1"
             provider="Eclipse, JBoss, Sonatype, VMware"
-            platformFilter="(platform.version&gt;=3.6.0)"
+            platformFilter="(platform.version&gt;=3.7.0)"
             siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
