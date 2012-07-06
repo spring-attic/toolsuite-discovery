@@ -46,17 +46,45 @@
             relevance="80">
       </connectorCategory>
       
-      <!-- m2e -->
+      <!-- m2e 1.1 for Juno-->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.patches"
             description="Composite install of the latest m2e v1.1 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
             id="org.eclipse.m2e.feature"
             kind="task, document"
             license="EPL"
-            name="m2eclipse 1.1"
+            name="Maven Integration for Eclipse 1.1"
             provider="Eclipse, JBoss, Sonatype, VMware"
-            platformFilter="(platform.version&gt;=3.7.0)"
+            platformFilter="(platform.version&gt;=3.8.0)"
             siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e-juno/">
+         <iu id="org.eclipse.m2e.feature" />
+         <iu id="org.eclipse.m2e.logback.feature" />
+         <iu id="org.sonatype.m2e.mavenarchiver.feature" />
+         <iu id="org.sonatype.m2e.buildhelper.feature" />
+         <iu id="org.maven.ide.eclipse.wtp.feature" />
+         <iu id="org.maven.ide.eclipse.ajdt.feature" />
+         <icon
+               image32="images/m2eclipse.gif"></icon>
+         <overview
+               summary="The purpose of this composite install is to ease the upgrade of the Maven Eclipse integration from older versions of 
+               m2eclipse that shipped with STS 2.7.2 and before to the new Eclipse-hosted version m2e 1.1 and beyond, 
+               including compatible extensions for WTP, for example.  Installing this extension will automatically uninstall any
+               legecy version of m2eclipse currently in your STS."
+               url="http://www.eclipse.org/m2e">
+         </overview>
+      </connectorDescriptor>
+
+      <!-- m2e 1.0 for Indigo-->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.patches"
+            description="Composite install of the latest m2e v1.0 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
+            id="org.eclipse.m2e.feature"
+            kind="task, document"
+            license="EPL"
+            name="Maven Integration for Eclipse 1.0"
+            provider="Eclipse, JBoss, Sonatype, VMware"
+            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
          <iu id="org.sonatype.m2e.mavenarchiver.feature" />
@@ -80,7 +108,7 @@
             id="org.maven.ide.eclipse.feature"
             kind="task, document"
             license="EPL"
-            name="m2eclipse 0.12"
+            name="Maven Integration for Eclipse 0.12"
             provider="Eclipse, JBoss, Sonatype, VMware"
             platformFilter="(platform.version&gt;=3.6.0)"
             siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2eclipse-012">
