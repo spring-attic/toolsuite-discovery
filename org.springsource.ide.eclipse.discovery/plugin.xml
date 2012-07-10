@@ -383,7 +383,7 @@
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
-            id="com.springsource.sts.gradle.feature"
+            id="org.springsource.ide.eclipse.gradle.feature"
             kind="task, document"
             groupId="certified"
             license="Free, EPL"
