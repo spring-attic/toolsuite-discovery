@@ -434,7 +434,7 @@
             provider="Google"
             siteUrl="http://dl.google.com/eclipse/plugin/3.7">
          <iu id="com.google.gdt.eclipse.suite.e37.feature" />
-         <iu id="com.google.appengine.eclipse.sdkbundle.e37.feature" />
+         <iu id="com.google.appengine.eclipse.sdkbundle.feature.feature.group" />
          <iu id="com.google.gwt.eclipse.sdkbundle.e37.feature" />
          <icon
                image32="images/google_32.png">
