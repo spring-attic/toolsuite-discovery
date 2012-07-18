@@ -46,9 +46,9 @@
             relevance="80">
       </connectorCategory>
       
-      <!-- m2e 1.1 for Juno-->
+      <!-- M2E 1.1 for Juno-->
       <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.patches"
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Composite install of the latest m2e v1.1 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
             id="org.eclipse.m2e.feature"
             kind="task, document"
@@ -76,7 +76,7 @@
 
       <!-- m2e 1.0 for Indigo-->
       <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.patches"
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Composite install of the latest m2e v1.0 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
             id="org.eclipse.m2e.feature"
             kind="task, document"
