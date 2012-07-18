@@ -423,6 +423,7 @@
          <iu id="org.springframework.ide.eclipse.roo.feature" />
          <iu id="org.springframework.ide.eclipse.mylyn.feature" />
          <iu id="org.springframework.ide.eclipse.maven.feature" />
+         <iu id="org.springframework.ide.eclipse.data.feature" />
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -454,6 +455,7 @@
          <iu id="org.springframework.ide.eclipse.roo.feature" />
          <iu id="org.springframework.ide.eclipse.mylyn.feature" />
          <iu id="org.springframework.ide.eclipse.maven.feature" />
+         <iu id="org.springframework.ide.eclipse.data.feature" />
          <icon
                image32="images/springsource_32.png">
          </icon>
