@@ -302,7 +302,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=3.6.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/gradle">
+            siteUrl="http://dist.springsource.com/release/TOOLS/gradle/2.9.0.RELEASE">
          <icon
                image32="images/gradle_32.png">
          </icon>
