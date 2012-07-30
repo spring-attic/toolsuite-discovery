@@ -222,7 +222,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.7-sts292">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7-sts292">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
