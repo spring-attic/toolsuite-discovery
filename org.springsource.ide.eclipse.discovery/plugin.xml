@@ -200,7 +200,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=3.7.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7-sts292">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <iu id="org.codehaus.groovy.m2eclipse" />
          <iu id="org.codehaus.groovy18.feature" />
@@ -211,6 +211,7 @@
                url="http://groovy.codehaus.org/Eclipse+Plugin">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="This feature provides the Groovy 2.0 compiler for Groovy-Eclipse.  Once installed, the 2.0 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
@@ -221,7 +222,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/third-party/groovy-grails/e3.7-sts292">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -270,6 +271,7 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
@@ -280,7 +282,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=3.7.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/groovy-grails/e3.7-sts292">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -289,6 +291,7 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
@@ -308,6 +311,7 @@
                url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.frameworks"
             description="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
@@ -327,6 +331,7 @@
                url="http://www.springsource.org/roo">
          </overview>
       </connectorDescriptor>
+
       <!--<connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.frameworks"
             description="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
@@ -345,6 +350,7 @@
                url="http://www.springsource.org/roo">
          </overview>
       </connectorDescriptor>-->
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.frameworks"
             description="Grails is a high-productivity web framework based on the Groovy language that embraces the coding by convention paradigm."
@@ -363,6 +369,7 @@
                url="http://www.grails.org">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Infinitest is a continuous test runner for JUnit tests. Whenever you change a class, Infinitest runs your tests for you. It’s smart about what tests to run."
@@ -381,6 +388,7 @@
                url="http://improvingworks.com">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
@@ -402,6 +410,7 @@
                url="http://code.google.com/eclipse/docs/users_guide.html">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
@@ -423,6 +432,7 @@
                url="http://code.google.com/eclipse/docs/users_guide.html">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
@@ -444,6 +454,7 @@
                url="http://code.google.com/eclipse/docs/users_guide.html">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="DataNucleus provides its own plugin for use within Eclipse, giving access to many features of DataNucleus from the convenience of your development environment."
@@ -461,6 +472,7 @@
                url="http://www.datanucleus.org/products/accessplatform_1_0/guides/eclipse/index.html">
          </overview>
       </connectorDescriptor>
+
       <!--<connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="SpringSource dm Server is a completely module-based Java application server that is designed to run enterprise Java applications and Spring-powered applications."
@@ -478,6 +490,7 @@
                url="http://www.springsource.org/dmserver">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="SpringSource dm Server is a completely module-based Java application server that is designed to run enterprise Java applications and Spring-powered applications."
@@ -495,6 +508,7 @@
                url="http://www.springsource.com/products/dmserver">
          </overview>
       </connectorDescriptor>-->
+
 <!--      <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="The integration supports deploying to SpringSource dm Server which is a completely module-based Java application server that is designed to run enterprise Java applications and Spring-powered applications."
@@ -513,6 +527,7 @@
                url="http://www.springsource.org/dmserver">
          </overview>
       </connectorDescriptor> -->
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="VMware vFabric tc Server Developer Edition enhances Apache Tomcat to provide Java developers insight into the performance and behavior of their Spring applications."
@@ -530,6 +545,7 @@
                url="http://www.springsource.com/products/tcserver/devedition">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="Subclipse is a team provider plug-in providing support for Subversion (SVN) within the IDE."
@@ -553,6 +569,7 @@
                url="http://subclipse.tigris.org/">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="The Subversive plug-in gives you the ability to work with Subversion (SVN) from the workbench."
@@ -574,6 +591,7 @@
                url="http://www.eclipse.org/subversive/">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="The integration supports managing application deployments, service bindings and instance scaling, and debugging on VMware Cloud Foundry"
@@ -594,6 +612,7 @@
                url="http://www.cloudfoundry.com">
          </overview>
       </connectorDescriptor>
+
 <!--      <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="The integration supports deploying of projects and managing of VMforce deployments."
@@ -634,7 +653,6 @@
          </overview>
       </connectorDescriptor>
 -->
-
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Client to install components from the Eclipse Marketplace. SpringSource does not make any guarantees for those components."
