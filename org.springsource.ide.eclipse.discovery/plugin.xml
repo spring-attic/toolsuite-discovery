@@ -246,7 +246,7 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e3.7">
+            siteUrl="http://dist.springsource.org/release/GRECLIPSE/e3.7/">
          <iu id="org.codehaus.groovy.m2eclipse" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -305,7 +305,7 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=3.8.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e4.2">
+            siteUrl="http://dist.springsource.org/release/GRECLIPSE/e4.2/">
          <iu id="org.codehaus.groovy.m2eclipse" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -315,6 +315,8 @@
          </overview>
       </connectorDescriptor>
       <!-- END Groovy-Eclipse -->
+
+      <!-- BEGIN Grails-IDE -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
@@ -354,6 +356,7 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
+      <!-- BEGIN Grails-IDE -->
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
