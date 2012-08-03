@@ -693,16 +693,15 @@
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support.experimental"
-            description="The Scala IDE for Eclipse together with the corresponding Maven integration."
+            description="The Scala IDE for Eclipse."
             kind="task"
             id="org.scala-ide.sdt.feature"
             license="Free, EPL"
             name="Scala IDE for Eclipse"
             platformFilter="(platform.version&gt;=3.6.0)"
-            provider="scala-ide.org (Scala IDE for Eclipse) and Sonatype, Inc. (m2eclipse-scala)"
+            provider="scala-ide.org (Scala IDE for Eclipse)"
             siteUrl="http://dist.springsource.com/release/TOOLS/third-party/scala/e3.7">
          <iu id="org.maven.ide.eclipse.scala_feature" />
-         <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
          </icon>
