@@ -388,7 +388,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7/">
+            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e3.7">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -420,7 +420,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2/">
+            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e4.2">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
