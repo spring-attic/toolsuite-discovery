@@ -675,6 +675,8 @@
                url="http://www.springsource.org/dmserver">
          </overview>
       </connectorDescriptor> -->
+
+      <!-- tc Server support -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="VMware vFabric tc Server Developer Edition enhances Apache Tomcat to provide Java developers insight into the performance and behavior of their Spring applications."
@@ -692,6 +694,26 @@
                url="http://www.springsource.com/products/tcserver/devedition">
          </overview>
       </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.runtimes"
+            description="VMware vFabric tc Server Integration for Eclipse"
+            id="com.vmware.vfabric.ide.eclipse.tcserver"
+            kind="task"
+            license="Free, EPL"
+            name="VMware vFabric tc Server Integration for Eclipse"
+            provider="VMware, Inc."
+            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e3.7">
+         <icon
+               image32="images/springsource_32.png">
+         </icon>
+         <overview
+               summary="%tcserver.description"
+               url="http://www.springsource.com/products/tcserver/devedition">
+         </overview>
+      </connectorDescriptor>
+
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="Subclipse is a team provider plug-in providing support for Subversion (SVN) within the IDE."
@@ -715,6 +737,7 @@
                url="http://subclipse.tigris.org/">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="The Subversive plug-in gives you the ability to work with Subversion (SVN) from the workbench."
@@ -736,6 +759,7 @@
                url="http://www.eclipse.org/subversive/">
          </overview>
       </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="The integration supports managing application deployments, service bindings and instance scaling, and debugging on VMware Cloud Foundry"
