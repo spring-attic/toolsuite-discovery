@@ -356,7 +356,7 @@
                url="http://www.grails.org/STS+Integration">
          </overview>
       </connectorDescriptor>
-      <!-- BEGIN Grails-IDE -->
+      <!-- END Grails-IDE -->
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
@@ -820,6 +820,24 @@
          </overview>
       </connectorDescriptor>
 -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.patches"
+            description="Fixes a performance issue with Eclipse 4.2 and STS 3.0.0."
+            kind="task"
+            id="org.eclipse.e4.ui.workbench.renderers.swt.patch.bug386070"
+            license="EPL"
+            name="Patch for Eclipse bugzilla issue Bug 386070"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;4.2.1))"
+            provider="SpringSource, a division of VMware, Inc."
+            siteUrl="http://dist.springsource.com/release/TOOLS/patches/bug386070/">
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+         	   summary="Install this patch if you are having performance issues with STS, particularly on startup.  This is a performance issue with rendering of SWT icons.  The discussion was originaly here: http://forum.springsource.org/showthread.php?129319-STS-3-0-%28Really-Eclipse-Juno%29-is-slow"
+               url="https://bugs.eclipse.org/bugs/show_bug.cgi?id=386070">
+         </overview>
+      </connectorDescriptor>
 
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
