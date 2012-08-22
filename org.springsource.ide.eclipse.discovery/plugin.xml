@@ -659,7 +659,7 @@
             kind="task"
             id="org.eclipse.e4.ui.workbench.renderers.swt.patch.bug386070"
             license="EPL"
-            name="Patch for Eclipse bugzilla issue Bug 386070"
+            name="Performance patch for Bug 386070"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.1))"
             provider="SpringSource, a division of VMware, Inc."
             siteUrl="http://dist.springsource.com/release/TOOLS/patches/bug386070/">
