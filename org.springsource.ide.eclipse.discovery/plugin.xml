@@ -367,8 +367,28 @@
             license="Free, EPL"
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(platform.version&gt;=3.6.0)"
+            platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
             siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e3.7">
+         <icon
+               image32="images/gradle_32.png">
+         </icon>
+         <overview
+               summary="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+               url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+            id="org.springsource.ide.eclipse.gradle.feature"
+            kind="task, document"
+            groupId="certified"
+            license="Free, EPL"
+            name="Gradle Support"
+            provider="SpringSource, a division of VMware, Inc."
+            platformFilter="(platform.version&gt;=3.8.0)"
+            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.0.0.RELEASE/e4.2">
          <icon
                image32="images/gradle_32.png">
          </icon>
