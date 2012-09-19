@@ -585,7 +585,7 @@
             name="Spring Roo (current production release)"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts300">
+            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts310">
          <icon
                image32="images/spring_roo_32.png">
          </icon>
@@ -621,7 +621,7 @@
             license="Free, ASL"
             name="Grails (current production release)"
             provider="Codehaus.org"
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts300">
+            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts310">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -818,7 +818,7 @@
             license="Commercial"
             name="VMware vFabric tc Server Developer Edition"
             provider="VMware, Inc."
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts300">
+            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts310">
          <icon
                image32="images/springsource_32.png">
          </icon>
