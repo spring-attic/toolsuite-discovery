@@ -1114,6 +1114,7 @@
             license="Free, EPL"
             name="Eclipse 4 Chrome Theme"
             provider="Jeeeyul"
+            platformFilter="(platform.version&gt;=4.2.0)"
             siteUrl="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite">
          <icon
                image32="images/eclipse_32.gif">
