@@ -1105,6 +1105,25 @@
                url="http://www.scala-ide.org/">
          </overview>
       </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
+            description="The Eclipse 4 Chrome theme is a predefined theme for Eclipse 4 and also a full featured e4 theme customzier."
+            id="net.jeeeyul.eclipse.themes.feature"
+            kind="task"
+            license="Free, EPL"
+            name="Eclipse 4 Chrome Theme"
+            provider="Jeeeyul"
+            siteUrl="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite">
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               url="https://github.com/jeeeyul/eclipse-themes">
+         </overview>
+      </connectorDescriptor>
+
+
       
 	</extension>
 </plugin>
