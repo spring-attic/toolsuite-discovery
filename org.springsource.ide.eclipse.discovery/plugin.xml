@@ -1127,7 +1127,7 @@
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Android Development Tools"
+            description="Android Development Tools (ADT) is a plugin for the Eclipse IDE that is designed to give you a powerful, integrated environment in which to build Android applications."
             kind="task"
             id="com.android.ide.eclipse.adt"
             license="Free, Apache 2.0, BSD"
