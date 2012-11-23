@@ -1125,6 +1125,28 @@
          </overview>
       </connectorDescriptor>
 
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Android Development Tools"
+            kind="task"
+            id="com.android.ide.eclipse.adt"
+            license="Free, Apache 2.0, BSD"
+            name="Android Development Tools"
+            platformFilter="(platform.version&gt;=3.7.0)"
+            provider="Google, Inc."
+            siteUrl="https://dl-ssl.google.com/android/eclipse/">
+         <iu id="com.android.ide.eclipse.adt"/>
+         <iu id="com.android.ide.eclipse.ddms"/>
+         <iu id="com.android.ide.eclipse.hierarchyviewer"/>
+         <iu id="com.android.ide.eclipse.traceview"/>
+         <icon
+               image32="images/adt.png">
+         </icon>
+         <overview
+               url="http://developer.android.com/tools/sdk/eclipse-adt.html">
+         </overview>
+      </connectorDescriptor>
+
 
       
 	</extension>
