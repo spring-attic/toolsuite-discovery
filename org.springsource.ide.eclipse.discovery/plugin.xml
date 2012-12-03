@@ -56,7 +56,7 @@
             name="Maven Integration for Eclipse 1.1"
             provider="Eclipse, JBoss, Sonatype, VMware"
             platformFilter="(platform.version&gt;=3.8.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e-juno/">
+            siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2e-juno/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
          <iu id="org.sonatype.m2e.mavenarchiver.feature" />
@@ -84,7 +84,7 @@
             name="Maven Integration for Eclipse 1.0"
             provider="Eclipse, JBoss, Sonatype, VMware"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e/">
+            siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2e/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
          <iu id="org.sonatype.m2e.mavenarchiver.feature" />
@@ -208,7 +208,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -227,7 +227,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -267,7 +267,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -286,7 +286,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -308,7 +308,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -327,7 +327,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -368,7 +368,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -388,7 +388,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -408,7 +408,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -429,7 +429,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -449,7 +449,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -469,7 +469,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -489,7 +489,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -521,7 +521,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -553,7 +553,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -585,7 +585,7 @@
             name="Spring Roo (current production release)"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts320">
+            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts320">
          <icon
                image32="images/spring_roo_32.png">
          </icon>
@@ -621,7 +621,7 @@
             license="Free, ASL"
             name="Grails (current production release)"
             provider="Codehaus.org"
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts320">
+            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts320">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -818,7 +818,7 @@
             license="Commercial"
             name="VMware vFabric tc Server Developer Edition"
             provider="VMware, Inc."
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts320">
+            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts320">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -837,7 +837,7 @@
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -856,7 +856,7 @@
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -875,7 +875,7 @@
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -918,7 +918,7 @@
             license="Free, EPL"
             name="Subversive"
             provider="Polarion"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/subversive">
+            siteUrl="http://download.springsource.com/release/TOOLS/third-party/subversive">
         <iu id="org.eclipse.team.svn" />
 		<iu id="org.eclipse.team.svn.resource.ignore.rules.jdt" />
 		<iu id="org.eclipse.team.svn.mylyn" />
@@ -941,7 +941,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="VMware, Inc."
-            siteUrl="http://dist.springsource.com/release/TOOLS/cloudfoundry">
+            siteUrl="http://download.springsource.com/release/TOOLS/cloudfoundry">
          <iu id="org.cloudfoundry.ide.eclipse.server" />
          <iu id="org.springframework.ide.eclipse.uaa.feature" />
          <icon
@@ -1078,7 +1078,7 @@
             name="Scala IDE for Eclipse"
             platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
             provider="scala-ide.org (Scala IDE for Eclipse)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/scala/e3.7">
+            siteUrl="http://download.springsource.com/release/TOOLS/third-party/scala/e3.7">
          <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
@@ -1097,7 +1097,7 @@
             name="Scala IDE for Eclipse (for Eclipse Juno, nightly build)"
             platformFilter="(platform.version&gt;=3.8.0)"
             provider="scala-ide.org (Scala IDE for Eclipse)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/scala/e4.2">
+            siteUrl="http://download.springsource.com/release/TOOLS/third-party/scala/e4.2">
          <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
