@@ -101,7 +101,7 @@
                url="http://www.eclipse.org/m2e">
          </overview>
       </connectorDescriptor>
-
+<!--
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Composite install of the legacy m2e v0.12 components.  Use this extension to revert to an older version of m2e and automatically uninstall all other versions."
@@ -127,7 +127,7 @@
                url="http://m2eclipse.sonatype.org/archived-releases.html">
          </overview>
       </connectorDescriptor>
-
+-->
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="EGit for integration with the Git version control system."
@@ -208,7 +208,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -227,7 +227,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -246,7 +246,7 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.org/release/GRECLIPSE/e3.7/">
+            siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e3.7/">
          <iu id="org.codehaus.groovy.m2eclipse" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -267,7 +267,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -286,7 +286,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -308,7 +308,7 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -327,7 +327,7 @@
             name="Groovy 2.0 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -346,7 +346,7 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(platform.version&gt;=3.8.0)"
-            siteUrl="http://dist.springsource.org/release/GRECLIPSE/e4.2/">
+            siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.2/">
          <iu id="org.codehaus.groovy.m2eclipse" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -368,7 +368,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -388,7 +388,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -408,7 +408,7 @@
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -429,7 +429,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -449,7 +449,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -469,7 +469,7 @@
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -489,7 +489,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -521,7 +521,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -553,7 +553,7 @@
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -837,7 +837,7 @@
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.7">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -856,7 +856,7 @@
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e3.8">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -875,7 +875,7 @@
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
             platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+            siteUrl="http://dist.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/springsource_32.png">
          </icon>
