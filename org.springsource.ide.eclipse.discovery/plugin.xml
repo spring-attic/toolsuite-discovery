@@ -269,30 +269,12 @@
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
             siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
          <iu id="org.codehaus.groovy.eclipse.feature" />
+         <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
                url="http://groovy.codehaus.org/Eclipse+Plugin">
-         </overview>
-      </connectorDescriptor>
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="This feature provides the Groovy 2.0 compiler for Groovy-Eclipse.  Once installed, the 2.0 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-            id="org.codehaus.groovy20.feature"
-            kind="task, document"
-            license="Free, EPL/ASL"
-            groupId="certified"
-            name="Groovy 2.0 Compiler for Groovy-Eclipse"
-            provider="Codehaus.org"
-            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
-         <iu id="org.codehaus.groovy20.feature" />
-         <icon
-               image32="images/groovy_32.png"></icon>
-         <overview
-               summary="The Groovy 2.0 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
       <!-- END Groovy-Eclipse -->
@@ -310,30 +292,12 @@
             platformFilter="(platform.version&gt;=4.2.0)"
             siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.codehaus.groovy.eclipse.feature" />
+         <iu id="org.codehaus.groovy20.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
                url="http://groovy.codehaus.org/Eclipse+Plugin">
-         </overview>
-      </connectorDescriptor>
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="This feature provides the Groovy 2.0 compiler for Groovy-Eclipse.  Once installed, the 2.0 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-            id="org.codehaus.groovy20.feature"
-            kind="task, document"
-            license="Free, EPL/ASL"
-            groupId="certified"
-            name="Groovy 2.0 Compiler for Groovy-Eclipse"
-            provider="Codehaus.org"
-            platformFilter="(platform.version&gt;=4.2.0)"
-            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
-         <iu id="org.codehaus.groovy20.feature" />
-         <icon
-               image32="images/groovy_32.png"></icon>
-         <overview
-               summary="The Groovy 2.0 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
       <connectorDescriptor
