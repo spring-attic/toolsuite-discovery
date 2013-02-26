@@ -227,7 +227,9 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7">
+			<!-- Revert to this update site for final build -->
+			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
+			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e3.7/">
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -286,7 +288,9 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
+			<!-- Revert to this update site for final build -->
+			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
+			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.2/">
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -345,7 +349,10 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
+			<!-- Revert to this update site for final build -->
+			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
+			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.2/">
+
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -365,6 +372,67 @@
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
             siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.2/">
+         <iu id="org.codehaus.groovy.m2eclipse" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="This feature provides the Groovy-Eclipse configurator for M2Eclipse"
+               url="http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
+         </overview>
+      </connectorDescriptor>
+
+     <!-- Groovy-Eclipse for Kepler 4.3 -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers."
+            id="org.codehaus.groovy.eclipse.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
+         <iu id="org.codehaus.groovy.eclipse.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
+               url="http://groovy.codehaus.org/Eclipse+Plugin">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 2.1 compiler for Groovy-Eclipse.  Once installed, the 2.1 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
+            id="org.codehaus.groovy21.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 2.1 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+			<!-- Revert to this update site for final build -->
+			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
+			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.3/">
+         <iu id="org.codehaus.groovy21.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 2.1 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides integration between Groovy-Eclipse and M2Eclipse. Only install this feature if you are using Groovy and Maven inside of STS"
+            id="org.codehaus.groovy.m2eclipse.feature"
+            kind="task, document"
+            license="Free, EPL"
+            groupId="certified"
+            name="Groovy-Eclipse Configurator for M2Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
          <iu id="org.codehaus.groovy.m2eclipse" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -425,8 +493,28 @@
             license="Free, EPL"
             name="Grails Support"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(platform.version&gt;=4.2.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
             siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
+         <icon
+               image32="images/grails_32.png">
+         </icon>
+         <overview
+               summary="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
+               url="http://www.grails.org/STS+Integration">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Support for creating Grails projects, automatic dependency management, running commands and editing GSPs."
+            id="org.grails.ide.eclipse"
+            kind="task, document"
+            groupId="certified"
+            license="Free, EPL"
+            name="Grails Support"
+            provider="SpringSource, a division of VMware, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -437,6 +525,7 @@
       </connectorDescriptor>
       <!-- END Grails-IDE -->
 
+      <!-- BEGIN Gradle-IDE -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
@@ -486,7 +575,7 @@
             license="Free, EPL"
             name="Gradle Support"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(platform.version&gt;=4.2.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
             siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <icon
                image32="images/gradle_32.png">
@@ -497,6 +586,28 @@
          </overview>
       </connectorDescriptor>
 
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+            id="org.springsource.ide.eclipse.gradle.feature"
+            kind="task, document"
+            groupId="certified"
+            license="Free, EPL"
+            name="Gradle Support"
+            provider="SpringSource, a division of VMware, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
+         <icon
+               image32="images/gradle_32.png">
+         </icon>
+         <overview
+               summary="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+               url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
+         </overview>
+      </connectorDescriptor>
+      <!-- END Gradle-IDE -->
+
+      <!-- BEGIN Spring-IDE -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Full-featured support for working with Spring projects"
@@ -570,7 +681,7 @@
             license="Free, EPL"
             name="Spring IDE"
             provider="SpringSource, a division of VMware, Inc."
-            platformFilter="(platform.version&gt;=4.2.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
             siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
@@ -592,6 +703,39 @@
                summary="Full-featured support for working with Spring projects.">
          </overview>
       </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Full-featured support for working with Spring projects"
+            id="org.springframework.ide.eclipse.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring IDE"
+            provider="SpringSource, a division of VMware, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
+         <iu id="org.springframework.ide.eclipse.feature" />
+         <iu id="org.springframework.ide.eclipse.aop.feature" />
+         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
+         <iu id="org.springframework.ide.eclipse.osgi.feature" />
+         <iu id="org.springframework.ide.eclipse.security.feature" />
+         <iu id="org.springframework.ide.eclipse.webflow.feature" />
+         <iu id="org.springframework.ide.eclipse.batch.feature" />
+         <iu id="org.springframework.ide.eclipse.integration.feature" />
+         <iu id="org.springframework.ide.eclipse.autowire.feature" />
+         <iu id="org.springframework.ide.eclipse.roo.feature" />
+         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
+         <iu id="org.springframework.ide.eclipse.maven.feature" />
+         <iu id="org.springframework.ide.eclipse.data.feature" />
+         <icon
+               image32="images/springsource_32.png">
+         </icon>
+         <overview
+               summary="Full-featured support for working with Spring projects.">
+         </overview>
+      </connectorDescriptor>
+      <!-- END Spring-IDE -->
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.frameworks"
@@ -892,8 +1036,27 @@
             license="Free, EPL"
             name="VMware vFabric tc Server Integration for Eclipse"
             provider="VMware, Inc."
-            platformFilter="(platform.version&gt;=4.2.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
             siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
+         <icon
+               image32="images/springsource_32.png">
+         </icon>
+         <overview
+               summary="%tcserver.description"
+               url="http://www.springsource.com/products/tcserver/devedition">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.runtimes"
+            description="VMware vFabric tc Server Integration for Eclipse"
+            id="com.vmware.vfabric.ide.eclipse.tcserver"
+            kind="task"
+            license="Free, EPL"
+            name="VMware vFabric tc Server Integration for Eclipse"
+            provider="VMware, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
          <icon
                image32="images/springsource_32.png">
          </icon>
