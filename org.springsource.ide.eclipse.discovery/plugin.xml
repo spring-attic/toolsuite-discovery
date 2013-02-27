@@ -8,7 +8,7 @@
             description="Support for Server and Clouds"
             id="com.springsource.sts.discovery-directory.runtimes"
             name="Server and Clouds"
-            relevance="50">
+            relevance="75">
             <group id="certified" /> 
  			<group id="bundled" /> 
  			<group id="extra" /> 
