@@ -227,9 +227,9 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
+			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e3.7/">
 			<!-- Revert to this update site for final build -->
 			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
-			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e3.7/">
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -1238,8 +1238,46 @@
             license="Free, EPL"
             name="Eclipse Marketplace Client"
             provider="Eclipse EPP"
-            platformFilter="(platform.version&gt;=3.8.0)"
+            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
             siteUrl="http://download.eclipse.org/releases/juno">
+         <iu id="org.eclipse.epp.mpc" />
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               url="http://www.eclipse.org/mpc/">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
+            description="Client to install components from the Eclipse Marketplace. SpringSource does not make any guarantees for those components."
+            id="org.eclipse.epp.mpc"
+            kind="task"
+            license="Free, EPL"
+            name="Eclipse Marketplace Client"
+            provider="Eclipse EPP"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
+            siteUrl="http://download.eclipse.org/releases/juno">
+         <iu id="org.eclipse.epp.mpc" />
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               url="http://www.eclipse.org/mpc/">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
+            description="Client to install components from the Eclipse Marketplace. SpringSource does not make any guarantees for those components."
+            id="org.eclipse.epp.mpc"
+            kind="task"
+            license="Free, EPL"
+            name="Eclipse Marketplace Client"
+            provider="Eclipse EPP"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.eclipse.org/releases/kepler">
          <iu id="org.eclipse.epp.mpc" />
          <icon
                image32="images/eclipse_32.gif">
