@@ -227,7 +227,7 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e3.7/">
+			siteUrl="http://download.springsource.com/release/TOOLS/update/e3.7">
 			<!-- Revert to this update site for final build -->
 			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
          <iu id="org.codehaus.groovy21.feature" />
@@ -288,7 +288,7 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.2/">
+			siteUrl="http://download.springsource.com/release/TOOLS/update/e3.8">
 			<!-- Revert to this update site for final build -->
 			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
          <iu id="org.codehaus.groovy21.feature" />
@@ -349,7 +349,7 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.2/">
+			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.2">
 			<!-- Revert to this update site for final build -->
 			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
          <iu id="org.codehaus.groovy21.feature" />
@@ -410,7 +410,7 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.org/milestone/GRECLIPSE/e4.3/">
+			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.3">
 			<!-- Revert to this update site for final build -->
 			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
          <iu id="org.codehaus.groovy21.feature" />
