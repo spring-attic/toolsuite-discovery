@@ -246,7 +246,7 @@
             name="Groovy 1.7 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://download.springsource.org/milestone/GRECLIPSE/update/e3.7">
          <iu id="org.codehaus.groovy17.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -324,7 +324,7 @@
             name="Groovy 1.7 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
+			siteUrl="http://download.springsource.org/milestone/GRECLIPSE/update/e4.2">
          <iu id="org.codehaus.groovy17.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -402,7 +402,7 @@
             name="Groovy 1.7 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
+			siteUrl="http://download.springsource.org/milestone/GRECLIPSE/update/e4.2">
          <iu id="org.codehaus.groovy17.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -480,7 +480,7 @@
             name="Groovy 1.7 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
+			siteUrl="http://download.springsource.org/milestone/GRECLIPSE/update/e4.3">
          <iu id="org.codehaus.groovy17.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
