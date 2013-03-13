@@ -228,13 +228,30 @@
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
 			siteUrl="http://download.springsource.com/release/TOOLS/update/e3.7">
-			<!-- Revert to this update site for final build -->
-			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The Groovy 2.1 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 1.7 compiler for Groovy-Eclipse.  Once installed, you must manually switch compilers through Groovy preferences."
+            id="org.codehaus.groovy17.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 1.7 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
+			siteUrl="http://download.springsource.com/release/TOOLS/update/e3.7">
+         <iu id="org.codehaus.groovy17.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 1.7 compiler is available for use with your legacy Groovy and Grails projects."
                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
@@ -289,13 +306,30 @@
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
 			siteUrl="http://download.springsource.com/release/TOOLS/update/e3.8">
-			<!-- Revert to this update site for final build -->
-			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The Groovy 2.1 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 1.7 compiler for Groovy-Eclipse.  Once installed, you must manually switch compilers through Groovy preferences."
+            id="org.codehaus.groovy17.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 1.7 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8">
+         <iu id="org.codehaus.groovy17.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 1.7 compiler is available for use with your legacy Groovy and Grails projects."
                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
@@ -350,13 +384,30 @@
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
 			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.2">
-			<!-- Revert to this update site for final build -->
-			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The Groovy 2.1 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 1.7 compiler for Groovy-Eclipse.  Once installed, you must manually switch compilers through Groovy preferences."
+            id="org.codehaus.groovy17.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 1.7 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2">
+         <iu id="org.codehaus.groovy17.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 1.7 compiler is available for use with your legacy Groovy and Grails projects."
                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
@@ -411,13 +462,30 @@
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
 			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.3">
-			<!-- Revert to this update site for final build -->
-			<!-- siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The Groovy 2.1 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 1.7 compiler for Groovy-Eclipse.  Once installed, you must manually switch compilers through Groovy preferences."
+            id="org.codehaus.groovy17.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 1.7 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3">
+         <iu id="org.codehaus.groovy17.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 1.7 compiler is available for use with your legacy Groovy and Grails projects."
                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
