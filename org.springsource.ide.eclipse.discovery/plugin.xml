@@ -46,16 +46,44 @@
             relevance="80">
       </connectorCategory>
       
-      <!-- M2E 1.1 for Juno-->
+      <!-- M2E 1.3 for Kepler -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Composite install of the latest m2e v1.1 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
+            description="Composite install of the latest m2e v1.3 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
             id="org.eclipse.m2e.feature"
             kind="task, document"
             license="EPL"
-            name="Maven Integration for Eclipse 1.1"
+            name="Maven Integration for Eclipse 1.3"
             provider="Eclipse, JBoss, Sonatype, VMware"
-            platformFilter="(platform.version&gt;=3.8.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2e-kepler/">
+         <iu id="org.eclipse.m2e.feature" />
+         <iu id="org.eclipse.m2e.logback.feature" />
+         <iu id="org.sonatype.m2e.mavenarchiver.feature" />
+         <iu id="org.sonatype.m2e.buildhelper.feature" />
+         <iu id="org.maven.ide.eclipse.wtp.feature" />
+         <iu id="org.maven.ide.eclipse.ajdt.feature" />
+         <icon
+               image32="images/m2eclipse.gif"></icon>
+         <overview
+               summary="The purpose of this composite install is to ease the upgrade of the Maven Eclipse integration from older versions of 
+               m2eclipse that shipped with STS 2.7.2 and before to the new Eclipse-hosted version m2e 1.3 and beyond, 
+               including compatible extensions for WTP, for example.  Installing this extension will automatically uninstall any
+               legecy version of m2eclipse currently in your STS."
+               url="http://www.eclipse.org/m2e">
+         </overview>
+      </connectorDescriptor>
+
+      <!-- M2E 1.3 for Juno-->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Composite install of the latest m2e v1.3 components.  Installing this will automatically uninstall any legacy versions of m2eclipse."
+            id="org.eclipse.m2e.feature"
+            kind="task, document"
+            license="EPL"
+            name="Maven Integration for Eclipse 1.3"
+            provider="Eclipse, JBoss, Sonatype, VMware"
+            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=4.2.9))"
             siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2e-juno/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
@@ -67,7 +95,7 @@
                image32="images/m2eclipse.gif"></icon>
          <overview
                summary="The purpose of this composite install is to ease the upgrade of the Maven Eclipse integration from older versions of 
-               m2eclipse that shipped with STS 2.7.2 and before to the new Eclipse-hosted version m2e 1.1 and beyond, 
+               m2eclipse that shipped with STS 2.7.2 and before to the new Eclipse-hosted version m2e 1.3 and beyond, 
                including compatible extensions for WTP, for example.  Installing this extension will automatically uninstall any
                legecy version of m2eclipse currently in your STS."
                url="http://www.eclipse.org/m2e">
