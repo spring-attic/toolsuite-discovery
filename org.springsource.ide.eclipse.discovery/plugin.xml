@@ -84,7 +84,7 @@
             name="Maven Integration for Eclipse 1.3"
             provider="Eclipse, JBoss, Sonatype, VMware"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=4.2.9))"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/m2e-juno/">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/m2e-juno/">
          <iu id="org.eclipse.m2e.feature" />
          <iu id="org.eclipse.m2e.logback.feature" />
          <iu id="org.eclipse.m2e.wtp.feature" />
