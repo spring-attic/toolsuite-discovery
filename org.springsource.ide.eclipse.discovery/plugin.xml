@@ -314,7 +314,7 @@
             name="Groovy 2.1 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.3.0.M1/e4.2">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.3.0.M1/e3.8">
          <iu id="org.codehaus.groovy21.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
