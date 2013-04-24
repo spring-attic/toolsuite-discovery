@@ -912,28 +912,6 @@
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
             kind="task"
-            id="com.google.gdt.eclipse.suite.e35.feature"
-            license="Free, Commercial"
-            name="Google Plugin for Eclipse"
-            platformFilter="(platform.version&lt;=3.5.9)"
-            provider="Google"
-            siteUrl="http://dl.google.com/eclipse/plugin/3.5">
-         <iu id="com.google.gdt.eclipse.suite.e35.feature" />
-         <iu id="com.google.appengine.eclipse.sdkbundle.e35.feature" />
-         <iu id="com.google.gwt.eclipse.sdkbundle.e35.feature" />	
-         <icon
-               image32="images/google_32.png">
-         </icon>
-         <overview
-               summary="%google.description"
-               url="http://code.google.com/eclipse/docs/users_guide.html">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
-            kind="task"
             id="com.google.gdt.eclipse.suite.e36.feature"
             license="Free, Commercial"
             name="Google Plugin for Eclipse"
@@ -941,8 +919,8 @@
             provider="Google"
             siteUrl="http://dl.google.com/eclipse/plugin/3.6">
          <iu id="com.google.gdt.eclipse.suite.e36.feature" />
-         <iu id="com.google.appengine.eclipse.sdkbundle.e36.feature" />
-         <iu id="com.google.gwt.eclipse.sdkbundle.e36.feature" />
+         <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
+         <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
          <icon
                image32="images/google_32.png">
          </icon>
@@ -963,8 +941,30 @@
             provider="Google"
             siteUrl="http://dl.google.com/eclipse/plugin/3.7">
          <iu id="com.google.gdt.eclipse.suite.e37.feature" />
-         <iu id="com.google.appengine.eclipse.sdkbundle.e37.feature" />
-         <iu id="com.google.gwt.eclipse.sdkbundle.e37.feature" />
+         <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
+         <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
+         <icon
+               image32="images/google_32.png">
+         </icon>
+         <overview
+               summary="%google.description"
+               url="http://code.google.com/eclipse/docs/users_guide.html">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
+            kind="task"
+            id="com.google.gdt.eclipse.suite.e42.feature"
+            license="Free, Commercial"
+            name="Google Plugin for Eclipse"
+            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
+            provider="Google"
+            siteUrl="http://dl.google.com/eclipse/plugin/4.2">
+         <iu id="com.google.gdt.eclipse.suite.e42.feature" />
+         <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
+         <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
          <icon
                image32="images/google_32.png">
          </icon>
@@ -986,7 +986,7 @@
             siteUrl="http://dl.google.com/eclipse/plugin/4.2">
          <iu id="com.google.gdt.eclipse.suite.e42.feature" />
          <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
-         <iu id="com.google.gwt.eclipse.sdkbundle.e42.feature" />
+         <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
          <icon
                image32="images/google_32.png">
          </icon>
