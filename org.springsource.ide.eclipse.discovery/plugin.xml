@@ -1384,15 +1384,15 @@
       </connectorDescriptor>
 
       <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support.experimental"
-            description="The Scala IDE for Eclipsen."
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="The Scala IDE for Eclipse."
             kind="task"
             id="org.scala-ide.sdt.feature"
             license="Free, EPL"
             name="Scala IDE for Eclipse"
             platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
             provider="scala-ide.org (Scala IDE for Eclipse)"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/scala/e3.7">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/scala/e3.7">
          <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
@@ -1403,15 +1403,15 @@
       </connectorDescriptor>
       
       <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support.experimental"
-            description="The Scala IDE for Eclipse (nightly builds only at the moment)."
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="The Scala IDE for Eclipse."
             kind="task"
             id="org.scala-ide.sdt.feature"
             license="Free, EPL"
-            name="Scala IDE for Eclipse (for Eclipse Juno, nightly build)"
+            name="Scala IDE for Eclipse"
             platformFilter="(platform.version&gt;=3.8.0)"
             provider="scala-ide.org (Scala IDE for Eclipse)"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/scala/e4.2">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/scala/e4.2">
          <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
