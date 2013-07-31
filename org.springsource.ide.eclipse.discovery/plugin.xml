@@ -1197,13 +1197,17 @@
             kind="task"
             license="Free, EPL"
             name="Subversive"
-            provider="Polarion"
+            provider="Eclipse, Polarion"
             siteUrl="http://download.springsource.com/release/TOOLS/third-party/subversive">
         <iu id="org.eclipse.team.svn" />
-		<iu id="org.eclipse.team.svn.resource.ignore.rules.jdt" />
 		<iu id="org.eclipse.team.svn.mylyn" />
+		<iu id="org.eclipse.team.svn.resource.ignore.rules.jdt" />
+		<iu id="org.eclipse.team.svn.revision.graph" />
+		<iu id="org.eclipse.team.svn.nl1" />
 		<iu id="org.polarion.eclipse.team.svn.connector.svnkit16" />
+		<iu id="org.polarion.eclipse.team.svn.connector.svnkit17" />
 		<iu id="org.polarion.eclipse.team.svn.connector.javahl16" />
+		<iu id="org.polarion.eclipse.team.svn.connector.javahl17" />
          <icon
                image32="images/subversive_32.gif">
          </icon>
