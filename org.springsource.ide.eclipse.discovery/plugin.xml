@@ -1198,7 +1198,7 @@
             license="Free, EPL"
             name="Subversive"
             provider="Eclipse, Polarion"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/subversive">
+            siteUrl="http://dist.springsource.com/release/TOOLS/third-party/subversive">
         <iu id="org.eclipse.team.svn" />
 		<iu id="org.eclipse.team.svn.mylyn" />
 		<iu id="org.eclipse.team.svn.resource.ignore.rules.jdt" />
