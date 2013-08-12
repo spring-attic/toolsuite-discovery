@@ -1225,7 +1225,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="VMware, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/cloudfoundry">
+            siteUrl="http://dist.springsource.com/release/TOOLS/cloudfoundry">
          <iu id="org.cloudfoundry.ide.eclipse.server" />
          <iu id="org.springframework.ide.eclipse.uaa.feature" />
          <icon
