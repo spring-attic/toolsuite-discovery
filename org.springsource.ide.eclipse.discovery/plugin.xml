@@ -46,6 +46,31 @@
             relevance="80">
       </connectorCategory>
       
+	  <!-- Java8 for Eclipse 4.3 -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Java Development Tooling (JDT) for Java8 (BETA)"
+            id="org.eclipse.jdt.java8patch"
+            kind="task, document"
+            license="EPL"
+            name="Java Development Tooling (JDT) for Java8 (BETA)"
+            provider="Eclipse"
+            platformFilter="platform.version&gt;=4.3.0"
+            siteUrl="http://dist.springsource.com/snapshot/TOOLS/java8/e43">
+         <iu id="org.eclipse.jdt.java8patch" />
+         <iu id="org.eclipse.pde.java8patch" />
+         <iu id="org.eclipse.rcp.java8patch" />
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               summary="Feature patches for JDT, PDE, and RCP to use the latest version of the BETA_JAVA8 branch."
+               url="http://wiki.eclipse.org/JDT_Core/Java8">
+         </overview>
+      </connectorDescriptor>
+
+
+
       <!-- M2E 1.3 for Kepler -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
