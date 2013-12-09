@@ -49,7 +49,7 @@
 	  <!-- Java8 for Eclipse 4.3 -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Java Development Tooling (JDT) for Java8 (BETA)"
+            description="Wanna use Jva8 with Eclipse? This patches the Java tooling inside Eclipse for Java8 support (BETA)"
             id="org.eclipse.jdt.java8patch"
             kind="task, document"
             license="EPL"
