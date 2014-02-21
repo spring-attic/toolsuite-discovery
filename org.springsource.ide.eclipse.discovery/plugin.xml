@@ -56,10 +56,9 @@
             name="Java Development Tooling (JDT) for Java8 (BETA)"
             provider="Eclipse"
             platformFilter="(platform.version&gt;=4.3.0)"
-            siteUrl="http://dist.springsource.com/snapshot/TOOLS/java8/e43">
+            siteUrl="http://build.eclipse.org/eclipse/builds/4P/siteDir/updates/4.3-P-builds">
          <iu id="org.eclipse.jdt.java8patch" />
          <iu id="org.eclipse.pde.java8patch" />
-         <iu id="org.eclipse.rcp.java8patch" />
          <icon
                image32="images/eclipse_32.gif">
          </icon>
