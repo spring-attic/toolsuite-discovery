@@ -460,6 +460,7 @@
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
          <iu id="org.codehaus.groovy.eclipse.feature" />
+         <iu id="org.codehaus.groovy.jdt.patch" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
