@@ -49,13 +49,13 @@
 	  <!-- Java8 for Eclipse 4.3 -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Wanna use Jva8 with Eclipse? This patches the Java tooling inside Eclipse for Java8 support (BETA)"
+            description="Wanna use Jva8 with Eclipse? This patches the Java tooling inside Eclipse for Java8 support."
             id="org.eclipse.jdt.java8patch"
             kind="task, document"
             license="EPL"
-            name="Java Development Tooling (JDT) for Java8 (BETA)"
+            name="Java Development Tooling (JDT) for Java8"
             provider="Eclipse"
-            platformFilter="(platform.version&gt;=4.3.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
             siteUrl="http://build.eclipse.org/eclipse/builds/4P/siteDir/updates/4.3-P-builds">
          <iu id="org.eclipse.jdt.java8patch" />
          <iu id="org.eclipse.pde.java8patch" />
@@ -63,7 +63,7 @@
                image32="images/eclipse_32.gif">
          </icon>
          <overview
-               summary="Feature patches for JDT, PDE, and RCP to use the latest version of the BETA_JAVA8 branch."
+               summary="Feature patches for JDT, PDE, and RCP to use the latest version of the JAVA8 support for Eclipse."
                url="http://wiki.eclipse.org/JDT_Core/Java8">
          </overview>
       </connectorDescriptor>
