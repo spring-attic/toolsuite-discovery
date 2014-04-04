@@ -49,7 +49,7 @@
 	  <!-- Java8 for Eclipse 4.3 -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Wanna use Jva8 with Eclipse? This patches the Java tooling inside Eclipse for Java8 support."
+            description="Wanna use Java8 with Eclipse? This patches the Java tooling inside Eclipse for Java8 support."
             id="org.eclipse.jdt.java8patch"
             kind="task, document"
             license="EPL"
@@ -64,6 +64,27 @@
          </icon>
          <overview
                summary="Feature patches for JDT, PDE, and RCP to use the latest version of the JAVA8 support for Eclipse."
+               url="http://wiki.eclipse.org/JDT_Core/Java8">
+         </overview>
+      </connectorDescriptor>
+
+	  <!-- WTP Java8 Patch for Eclipse 4.3 -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This patch adds Java8 support to Eclipse Webtools (requires the Java8 support to be installed)"
+            id="org.eclipse.jst.common.fproj.enablement.jdt.feature.patch"
+            kind="task, document"
+            license="EPL"
+            name="Webtools Patch to support Java8"
+            provider="Eclipse"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            siteUrl="http://download.eclipse.org/webtools/patches/drops/R3.5.2/P-3.5.2-20140329045715/repository">
+         <iu id="org.eclipse.jst.common.fproj.enablement.jdt.feature.patch" />
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               summary="Feature patches for Webtools to be compatible with the latest version of the JAVA8 support for Eclipse."
                url="http://wiki.eclipse.org/JDT_Core/Java8">
          </overview>
       </connectorDescriptor>
