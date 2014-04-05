@@ -1224,10 +1224,9 @@
             license="Free, EPL"
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
-            provider="VMware, Inc."
+            provider="Pivotal Software, Inc."
             siteUrl="http://dist.springsource.com/release/TOOLS/cloudfoundry">
          <iu id="org.cloudfoundry.ide.eclipse.server" />
-         <iu id="org.springframework.ide.eclipse.uaa.feature" />
          <icon
                image32="images/cloudfoundry_32.png">
          </icon>
