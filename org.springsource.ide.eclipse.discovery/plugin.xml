@@ -317,6 +317,28 @@
       </connectorDescriptor>
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
+            id="org.codehaus.groovy23.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 2.3 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+         <iu id="org.codehaus.groovy23.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="This feature provides integration between Groovy-Eclipse and M2Eclipse. Only install this feature if you are using Groovy and Maven inside of STS"
             id="org.codehaus.groovy.m2eclipse.feature"
             kind="task, document"
@@ -380,6 +402,28 @@
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The Groovy 2.2 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
+            id="org.codehaus.groovy23.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 2.3 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+         <iu id="org.codehaus.groovy23.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
@@ -453,6 +497,28 @@
       </connectorDescriptor>
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
+            id="org.codehaus.groovy23.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 2.3 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+         <iu id="org.codehaus.groovy23.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="This feature provides integration between Groovy-Eclipse and M2Eclipse. Only install this feature if you are using Groovy and Maven inside of STS"
             id="org.codehaus.groovy.m2eclipse.feature"
             kind="task, document"
@@ -517,6 +583,28 @@
                image32="images/groovy_32.png"></icon>
          <overview
                summary="The Groovy 2.2 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
+               url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
+            id="org.codehaus.groovy23.feature"
+            kind="task, document"
+            license="Free, EPL/ASL"
+            groupId="certified"
+            name="Groovy 2.3 Compiler for Groovy-Eclipse"
+            provider="Codehaus.org"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+         <iu id="org.codehaus.groovy23.feature" />
+         <icon
+               image32="images/groovy_32.png"></icon>
+         <overview
+               summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
          </overview>
       </connectorDescriptor>
