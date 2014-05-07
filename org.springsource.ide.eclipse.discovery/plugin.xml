@@ -351,7 +351,7 @@
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
-         <iu id="org.codehaus.groovy.m2eclipse" />
+         <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
@@ -441,7 +441,7 @@
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
-         <iu id="org.codehaus.groovy.m2eclipse" />
+         <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
@@ -531,7 +531,7 @@
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
-         <iu id="org.codehaus.groovy.m2eclipse" />
+         <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
          <overview
