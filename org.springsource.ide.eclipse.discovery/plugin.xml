@@ -281,10 +281,10 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -303,10 +303,10 @@
             name="Groovy 2.2 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <iu id="org.codehaus.groovy22.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -325,10 +325,10 @@
             name="Groovy 2.3 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <iu id="org.codehaus.groovy23.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -347,10 +347,10 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -371,10 +371,10 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -393,10 +393,10 @@
             name="Groovy 2.2 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <iu id="org.codehaus.groovy22.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -415,10 +415,10 @@
             name="Groovy 2.3 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <iu id="org.codehaus.groovy23.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -437,10 +437,10 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -461,10 +461,10 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -483,10 +483,10 @@
             name="Groovy 2.2 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <iu id="org.codehaus.groovy22.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -505,10 +505,10 @@
             name="Groovy 2.3 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <iu id="org.codehaus.groovy23.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -527,10 +527,10 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -551,10 +551,10 @@
             name="Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <iu id="org.codehaus.groovy.jdt.patch" />
          <icon
@@ -574,10 +574,10 @@
             name="Groovy 2.2 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="org.codehaus.groovy22.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -596,10 +596,10 @@
             name="Groovy 2.3 Compiler for Groovy-Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="org.codehaus.groovy23.feature" />
          <icon
                image32="images/groovy_32.png"></icon>
@@ -618,10 +618,10 @@
             name="Groovy-Eclipse Configurator for M2Eclipse"
             provider="Codehaus.org"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="org.codehaus.groovy.m2eclipse.feature" />
          <iu id="org.codehaus.groovy.jdt.patch" />
          <icon
@@ -644,10 +644,10 @@
             name="Grails Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -667,10 +667,10 @@
             name="Grails Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -690,10 +690,10 @@
             name="Grails Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -713,10 +713,10 @@
             name="Grails Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="org.grails.ide.eclipse" />
          <iu id="org.codehaus.groovy.eclipse.feature" />
          <iu id="org.codehaus.groovy.jdt.patch" />
@@ -741,10 +741,10 @@
             name="Gradle Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -764,10 +764,10 @@
             name="Gradle Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -787,10 +787,10 @@
             name="Gradle Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -810,10 +810,10 @@
             name="Gradle Support"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <icon
                image32="images/gradle_32.png">
          </icon>
@@ -835,10 +835,10 @@
             name="Spring IDE"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -868,10 +868,10 @@
             name="Spring IDE"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -901,10 +901,10 @@
             name="Spring IDE"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -934,10 +934,10 @@
             name="Spring IDE"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -969,10 +969,10 @@
             name="Spring IDE - Roo Extension"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <icon
                image32="images/spring.png">
          </icon>
@@ -991,10 +991,10 @@
             name="Spring IDE - Roo Extension"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <icon
                image32="images/spring.png">
          </icon>
@@ -1013,10 +1013,10 @@
             name="Spring IDE - Roo Extension"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <icon
                image32="images/spring.png">
          </icon>
@@ -1035,10 +1035,10 @@
             name="Spring IDE - Roo Extension"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <icon
                image32="images/spring.png">
          </icon>
@@ -1259,10 +1259,10 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.7.0)(platform.version&lt;=3.7.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.7"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.7"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.7"> -->
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
          <icon
@@ -1283,10 +1283,10 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=3.8.0)(platform.version&lt;=3.8.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e3.8"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e3.8"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e3.8"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e3.8"> -->
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
          <icon
@@ -1307,10 +1307,10 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.2"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.2"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.2"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.2"> -->
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
          <icon
@@ -1331,10 +1331,10 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="GoPivotal, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.3"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.3"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.3"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/3.5.1.RELEASE/e4.3"> -->
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
          <icon
