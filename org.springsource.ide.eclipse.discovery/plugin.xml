@@ -934,7 +934,7 @@
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
-            description="The integration supports managing application deployments, service bindings and instance scaling, and debugging on VMware Cloud Foundry"
+            description="The integration supports application deployment and scaling, service bindings, and migration between Cloud spaces. Java 7 is required to install and run the integration."
             kind="task"
             id="org.cloudfoundry.ide.eclipse.server"
             license="Free, EPL"
