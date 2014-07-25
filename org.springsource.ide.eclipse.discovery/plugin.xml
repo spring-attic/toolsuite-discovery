@@ -1913,16 +1913,16 @@
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Android Development Tools (ADT) is a plugin for the Eclipse IDE that is designed to give you a powerful, integrated environment in which to build Android applications."
             kind="task"
-            id="com.android.ide.eclipse.adt"
+            id="com.android.ide.eclipse.adt.feature"
             license="Free, Apache 2.0, BSD"
             name="Android Development Tools"
             platformFilter="(platform.version&gt;=3.7.0)"
             provider="Google, Inc."
             siteUrl="https://dl-ssl.google.com/android/eclipse/">
-         <iu id="com.android.ide.eclipse.adt"/>
-         <iu id="com.android.ide.eclipse.ddms"/>
-         <iu id="com.android.ide.eclipse.hierarchyviewer"/>
-         <iu id="com.android.ide.eclipse.traceview"/>
+         <iu id="com.android.ide.eclipse.adt.feature"/>
+         <iu id="com.android.ide.eclipse.ddms.feature"/>
+         <iu id="com.android.ide.eclipse.hierarchyviewer.feature"/>
+         <iu id="com.android.ide.eclipse.traceview.feature"/>
          <icon
                image32="images/adt.png">
          </icon>
