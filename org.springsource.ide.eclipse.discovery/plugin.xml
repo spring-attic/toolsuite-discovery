@@ -1393,7 +1393,7 @@
             id="com.google.gdt.eclipse.suite.e42.feature"
             license="Free, Commercial"
             name="Google Plugin for Eclipse"
-            platformFilter="(platform.version&gt;=4.2.0)"
+            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.9))"
             provider="Google"
             siteUrl="http://dl.google.com/eclipse/plugin/4.2">
          <iu id="com.google.gdt.eclipse.suite.e42.feature" />
@@ -1408,6 +1408,50 @@
          </overview>
       </connectorDescriptor>
 
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
+            kind="task"
+            id="com.google.gdt.eclipse.suite.e43.feature"
+            license="Free, Commercial"
+            name="Google Plugin for Eclipse"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            provider="Google"
+            siteUrl="http://dl.google.com/eclipse/plugin/4.3">
+         <iu id="com.google.gdt.eclipse.suite.e43.feature" />
+         <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
+         <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
+         <icon
+               image32="images/google_32.png">
+         </icon>
+         <overview
+               summary="%google.description"
+               url="http://code.google.com/eclipse/docs/users_guide.html">
+         </overview>
+      </connectorDescriptor>
+<!--
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
+            kind="task"
+            id="com.google.gdt.eclipse.suite.e44.feature"
+            license="Free, Commercial"
+            name="Google Plugin for Eclipse"
+            platformFilter="(platform.version&gt;=4.4.0)"
+            provider="Google"
+            siteUrl="http://dl.google.com/eclipse/plugin/4.4">
+         <iu id="com.google.gdt.eclipse.suite.e44.feature" />
+         <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
+         <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
+         <icon
+               image32="images/google_32.png">
+         </icon>
+         <overview
+               summary="%google.description"
+               url="http://code.google.com/eclipse/docs/users_guide.html">
+         </overview>
+      </connectorDescriptor>
+-->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="DataNucleus provides its own plugin for use within Eclipse, giving access to many features of DataNucleus from the convenience of your development environment."
