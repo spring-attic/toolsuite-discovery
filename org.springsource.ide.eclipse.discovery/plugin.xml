@@ -1429,7 +1429,7 @@
                url="http://code.google.com/eclipse/docs/users_guide.html">
          </overview>
       </connectorDescriptor>
-<!--
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="The Google Plugin for Eclipse is the fastest way to start developing Google Web Toolkit and App Engine applications."
@@ -1451,7 +1451,7 @@
                url="http://code.google.com/eclipse/docs/users_guide.html">
          </overview>
       </connectorDescriptor>
--->
+
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="DataNucleus provides its own plugin for use within Eclipse, giving access to many features of DataNucleus from the convenience of your development environment."
