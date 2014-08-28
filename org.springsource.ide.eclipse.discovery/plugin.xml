@@ -1479,7 +1479,7 @@
             license="Commercial"
             name="Pivotal tc Server Developer Edition"
             provider="Pivotal Software, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts360">
+            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts360">
          <icon
                image32="images/spring.png">
          </icon>
