@@ -214,7 +214,7 @@
             license="Free, BSD"
             name="PMD"
             provider="InfoEther"
-            siteUrl="http://pmd.sourceforge.net/eclipse/">
+            siteUrl="http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/">
          <icon
                image32="images/pmd_32.gif">
          </icon>
