@@ -1289,7 +1289,7 @@
             groupId="bundled"
             license="Free, ASL"
             name="Grails (current production release)"
-            provider="Codehaus.org"
+            provider="Pivotal Software, Inc."
             siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts360">
          <icon
                image32="images/grails_32.png">
