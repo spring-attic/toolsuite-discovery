@@ -48,18 +48,18 @@
       
 	  <!-- Contrast for Eclipse -->
       <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Contrast for Eclipse is a powerful application security tool that expertly pinpoints vulnerabilities such as SQL Injection and Cross-Site Scripting using Contrast's award-winning instrumentation approach."
             id="com.contrastsecurity.eclipse"
             kind="task, document"
-	  		license="https://app.contrastsecurity.com/Contrast/static/html/plugin_tac.htm"
+	  		license="Commercial, https://app.contrastsecurity.com/Contrast/static/html/plugin_tac.htm"
             name="Contrast for Eclipse"
             provider="Contrast Security"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
 			siteUrl="https://eclipse.contrastsecurity.com/repository">
-         <iu id="org.eclipse.jdt.java8patch" />
+         <iu id="contrast.eclipse.feature"/>
          <icon
-               image32="images/contrast.ico">
+               image32="images/contrast_32.png">
          </icon>
 		 <overview
 			summary="Contrast for Eclipse enables developers to quickly and efficiently create secure code free of OWASP Top 10 vulnerabilities.  It brings Contrast’s award winning application security technology to Java developers via a fully integrated Eclipse Java IDE experience. Contrast for Eclipse not only speeds vulnerability remediation, it  enables application security pros and developers to work together to reduce risk."
