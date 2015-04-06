@@ -55,7 +55,7 @@
 	  		license="Commercial, https://app.contrastsecurity.com/Contrast/static/html/plugin_tac.htm"
             name="Contrast for Eclipse"
             provider="Contrast Security"
-            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.3.9))"
+            platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.5.9))"
 			siteUrl="https://eclipse.contrastsecurity.com/repository">
          <iu id="contrast.eclipse.feature"/>
          <icon
