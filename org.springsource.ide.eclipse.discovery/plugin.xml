@@ -49,10 +49,10 @@
 	  <!-- Contrast for Eclipse -->
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
-            description="Contrast for Eclipse is a powerful application security tool that expertly pinpoints vulnerabilities such as SQL Injection and Cross-Site Scripting using Contrast's award-winning instrumentation approach."
+            description="A powerful application security tool that expertly pinpoints vulnerabilities such as SQL Injection and XSS using Contrast's award-winning instrumentation approach."
             id="com.contrastsecurity.eclipse"
             kind="task, document"
-	  		license="Commercial, https://app.contrastsecurity.com/Contrast/static/html/plugin_tac.htm"
+	  		license="Free, Commercial"
             name="Contrast for Eclipse"
             provider="Contrast Security"
             platformFilter="(&amp;(platform.version&gt;=4.3.0)(platform.version&lt;=4.5.9))"
