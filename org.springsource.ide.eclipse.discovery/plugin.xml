@@ -346,7 +346,7 @@
             name="Grails Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.4">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.4">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
@@ -374,7 +374,7 @@
             name="Gradle Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.4">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.4">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
@@ -397,7 +397,7 @@
             name="Gradle Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.5">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.5">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
@@ -422,7 +422,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.4">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.4">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
@@ -455,7 +455,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.5">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.5">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
@@ -490,7 +490,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.4">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.4">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
@@ -512,7 +512,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.5">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.5">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
@@ -669,7 +669,7 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.4">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.4">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
@@ -692,7 +692,7 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC1/e4.5">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/update/3.7.0.RC2/e4.5">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
