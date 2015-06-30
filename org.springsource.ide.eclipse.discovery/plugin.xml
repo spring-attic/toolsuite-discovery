@@ -534,7 +534,7 @@
                url="http://www.springsource.org/roo">
          </overview>
       </connectorDescriptor>-->
-      <connectorDescriptor
+<!--      <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.frameworks"
             description="Grails is a high-productivity web framework based on the Groovy language that embraces the coding by convention paradigm."
             id="org.codehaus.grails.bundle"
@@ -551,7 +551,7 @@
                summary="Grails is a high-productivity web framework based on the Groovy language that embraces the coding by convention paradigm."
                url="http://www.grails.org">
          </overview>
-      </connectorDescriptor>
+      </connectorDescriptor>-->
 
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
