@@ -603,13 +603,13 @@
             license="Free, ASL"
             name="DataNucleus Eclipse Plugin"
             provider="DataNucleus"
-            siteUrl="http://www.jpox.org/downloads/eclipse-update/">
+            siteUrl="http://www.datanucleus.org/downloads/eclipse-update/">
          <icon
                image32="images/datanucleus_32.png">
          </icon>
          <overview
                summary="%datanucleus.description"
-               url="http://www.datanucleus.org/products/accessplatform_1_0/guides/eclipse/index.html">
+               url="http://www.datanucleus.org/download.html">
          </overview>
       </connectorDescriptor>
 
