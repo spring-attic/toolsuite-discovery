@@ -409,6 +409,7 @@
          <iu id="org.springframework.ide.eclipse.mylyn.feature" />
          <iu id="org.springframework.ide.eclipse.maven.feature" />
          <iu id="org.springframework.ide.eclipse.data.feature" />
+         <iu id="org.springframework.ide.eclipse.boot.dash.feature" />
          <icon
                image32="images/spring.png">
          </icon>
@@ -442,6 +443,7 @@
          <iu id="org.springframework.ide.eclipse.mylyn.feature" />
          <iu id="org.springframework.ide.eclipse.maven.feature" />
          <iu id="org.springframework.ide.eclipse.data.feature" />
+         <iu id="org.springframework.ide.eclipse.boot.dash.feature" />
          <icon
                image32="images/spring.png">
          </icon>
