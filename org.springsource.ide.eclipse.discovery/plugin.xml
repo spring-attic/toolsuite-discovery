@@ -338,12 +338,12 @@
       <!-- BEGIN Gradle-IDE -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+            description="For those not yet ready to move onto BuildShip, this is the old STS support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
             id="org.springsource.ide.eclipse.gradle.feature"
             kind="task, document"
             groupId="certified"
             license="Free, EPL"
-            name="Gradle Support"
+            name="Gradle STS Legacy Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
 			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4">
@@ -361,12 +361,12 @@
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+            description="For those not yet ready to move onto BuildShip, this is the old STS support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
             id="org.springsource.ide.eclipse.gradle.feature"
             kind="task, document"
             groupId="certified"
             license="Free, EPL"
-            name="Gradle Support"
+            name="Gradle (STS Legacy) Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
 			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5">
