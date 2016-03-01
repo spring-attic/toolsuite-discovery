@@ -381,6 +381,29 @@
                url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
          </overview>
       </connectorDescriptor>
+	  
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="For those not yet ready to move onto BuildShip, this is the old STS support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+            id="org.springsource.ide.eclipse.gradle.feature"
+            kind="task, document"
+            groupId="certified"
+            license="Free, EPL"
+            name="Gradle (STS Legacy) Support"
+            provider="Pivotal Software, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
+         <icon
+               image32="images/gradle_32.png">
+         </icon>
+         <overview
+               summary="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
+               url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
+         </overview>
+      </connectorDescriptor>
       <!-- END Gradle-IDE -->
 
       <!-- BEGIN Spring-IDE -->
@@ -451,6 +474,40 @@
                summary="Full-featured support for working with Spring projects.">
          </overview>
       </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Full-featured support for working with Spring projects"
+            id="org.springframework.ide.eclipse.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring IDE"
+            provider="Pivotal Software, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
+         <iu id="org.springframework.ide.eclipse.feature" />
+         <iu id="org.springframework.ide.eclipse.aop.feature" />
+         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
+         <iu id="org.springframework.ide.eclipse.security.feature" />
+         <iu id="org.springframework.ide.eclipse.webflow.feature" />
+         <iu id="org.springframework.ide.eclipse.batch.feature" />
+         <iu id="org.springframework.ide.eclipse.integration.feature" />
+         <iu id="org.springframework.ide.eclipse.autowire.feature" />
+         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
+         <iu id="org.springframework.ide.eclipse.maven.feature" />
+         <iu id="org.springframework.ide.eclipse.data.feature" />
+         <iu id="org.springframework.ide.eclipse.boot.dash.feature" />
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="Full-featured support for working with Spring projects.">
+         </overview>
+      </connectorDescriptor>
       <!-- END Spring-IDE -->
 
       <!-- BEGIN Spring-IDE Roo Extension-->
@@ -462,7 +519,7 @@
             groupId="certified"
             license="Free, EPL"
             name="Spring IDE - Roo Extension"
-            provider="Pivotal Software, Inc."
+            provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
 			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
@@ -484,12 +541,34 @@
             groupId="certified"
             license="Free, EPL"
             name="Spring IDE - Roo Extension"
-            provider="Pivotal Software, Inc."
+            provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
 			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="Spring IDE Extension to support Spring Roo development from within the IDE">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Spring IDE Extension to support Spring Roo development from within the IDE"
+            id="org.springframework.ide.eclipse.roo.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring IDE - Roo Extension"
+            provider="Pivotal Software, Inc., Disid"
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
          <icon
                image32="images/spring.png">
          </icon>
@@ -657,6 +736,7 @@
                url="http://www.springsource.com/products/tcserver/devedition">
          </overview>
       </connectorDescriptor>
+	  
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.runtimes"
             description="Pivotal tc Server Integration for Eclipse"
@@ -681,6 +761,30 @@
          </overview>
       </connectorDescriptor>
 	  
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.runtimes"
+            description="Pivotal tc Server Integration for Eclipse"
+            id="com.vmware.vfabric.ide.eclipse.tcserver"
+            kind="task"
+            license="Free, EPL"
+            name="Pivotal tc Server Integration for Eclipse"
+            provider="Pivotal Software, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
+<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
+<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
+<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
+         <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
+         <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="%tcserver.description"
+               url="http://www.springsource.com/products/tcserver/devedition">
+         </overview>
+      </connectorDescriptor>
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="Subclipse is a team provider plug-in providing support for Subversion (SVN) within the IDE."
@@ -740,7 +844,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="Eclipse, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/cft/1.0.0.M2">
+            siteUrl="http://download.eclipse.org/cft/1.0.M3/">
          <iu id="org.eclipse.cft.server.core.feature" />
          <iu id="org.eclipse.cft.server.ui.feature" />
          <icon
