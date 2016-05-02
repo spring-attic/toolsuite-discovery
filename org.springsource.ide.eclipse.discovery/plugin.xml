@@ -692,7 +692,7 @@
             name="Spring Roo (current production release)"
             provider="Pivotal Software, Inc."
             platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts370">
+            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts380">
          <icon
                image32="images/spring_roo_32.png">
          </icon>
@@ -728,7 +728,7 @@
             license="Free, ASL"
             name="Grails (current production release)"
             provider="Pivotal Software, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts370">
+            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts380">
          <icon
                image32="images/grails_32.png">
          </icon>
@@ -807,7 +807,7 @@
             license="Commercial"
             name="Pivotal tc Server Developer Edition"
             provider="Pivotal Software, Inc."
-            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts370">
+            siteUrl="http://dist.springsource.com/release/TOOLS/extensions/sts380">
          <icon
                image32="images/spring.png">
          </icon>
