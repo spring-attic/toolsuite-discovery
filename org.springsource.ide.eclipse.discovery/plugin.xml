@@ -855,7 +855,6 @@
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
-         <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
          <icon
                image32="images/spring.png">
          </icon>
@@ -879,7 +878,6 @@
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
-         <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
          <icon
                image32="images/spring.png">
          </icon>
