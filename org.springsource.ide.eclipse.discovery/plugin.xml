@@ -946,7 +946,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="Eclipse, Inc."
-            siteUrl="http://download.eclipse.org/cft/1.0.M3/">
+            siteUrl="http://download.eclipse.org/cft/1.0.1.M1/">
          <iu id="org.eclipse.cft.server.core.feature" />
          <iu id="org.eclipse.cft.server.ui.feature" />
          <icon
