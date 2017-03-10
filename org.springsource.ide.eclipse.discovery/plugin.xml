@@ -356,7 +356,7 @@
                   url="http://groovy.codehaus.org/Eclipse+Plugin">
             </overview>
          </connectorDescriptor>
-<!--
+
          <connectorDescriptor
                categoryId="com.springsource.sts.discovery-directory.framework.support"
                description="This feature provides the Groovy 2.2 compiler for Groovy-Eclipse.  Once installed, the 2.2 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
@@ -376,7 +376,7 @@
                   url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
             </overview>
          </connectorDescriptor>
--->
+
          <connectorDescriptor
                categoryId="com.springsource.sts.discovery-directory.framework.support"
                description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
@@ -747,8 +747,9 @@
             groupId="certified"
             name="Eclipse Data Tools"
             provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
 			siteUrl="http://download.eclipse.org/releases/neon">
-<!--         <iu id="org.eclipse.datatools.common.doc.user"/>
+         <iu id="org.eclipse.datatools.common.doc.user"/>
          <iu id="org.eclipse.datatools.connectivity.doc.user"/>
          <iu id="org.eclipse.datatools.connectivity.feature"/>
          <iu id="org.eclipse.datatools.connectivity.oda.designer.core.feature"/>
@@ -781,7 +782,7 @@
          <iu id="org.eclipse.datatools.sqldevtools.results.feature"/>
          <iu id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature"/>
          <iu id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature"/>
-         <iu id="org.eclipse.datatools.sqltools.doc.user"/> -->
+         <iu id="org.eclipse.datatools.sqltools.doc.user"/>
          <icon
                image32="images/eclipse_32.gif">
          </icon>
