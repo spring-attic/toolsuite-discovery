@@ -739,6 +739,57 @@
       </connectorDescriptor>-->
 
       <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Eclipse Data Tools, including a collection to database connectors to quickly access your data sources from within the IDE"
+            id="org.springframework.ide.eclipse.feature"
+            license="Free, EPL"
+            name="Eclipse Data Tools"
+            provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
+			siteUrl="http://download.eclipse.org/releases/neon">
+         <iu id="org.eclipse.datatools.common.doc.user"/>
+         <iu id="org.eclipse.datatools.connectivity.doc.user"/>
+         <iu id="org.eclipse.datatools.connectivity.feature"/>
+         <iu id="org.eclipse.datatools.connectivity.oda.designer.core.feature"/>
+         <iu id="org.eclipse.datatools.connectivity.oda.designer.feature"/>
+         <iu id="org.eclipse.datatools.connectivity.oda.feature"/>
+         <iu id="org.eclipse.datatools.doc.user"/>
+         <iu id="org.eclipse.datatools.enablement.apache.derby.feature"/>
+         <iu id="org.eclipse.datatools.enablement.feature"/>
+         <iu id="org.eclipse.datatools.enablement.hsqldb.feature"/>
+         <iu id="org.eclipse.datatools.enablement.ibm.feature"/>
+         <iu id="org.eclipse.datatools.enablement.ingres.feature"/>
+         <iu id="org.eclipse.datatools.enablement.jdbc.feature"/>
+         <iu id="org.eclipse.datatools.enablement.jdt.feature"/>
+         <iu id="org.eclipse.datatools.enablement.msft.feature"/>
+         <iu id="org.eclipse.datatools.enablement.mysql.feature"/>
+         <iu id="org.eclipse.datatools.enablement.oda.designer.feature"/>
+         <iu id="org.eclipse.datatools.enablement.oda.feature"/>
+         <iu id="org.eclipse.datatools.enablement.oracle.feature"/>
+         <iu id="org.eclipse.datatools.enablement.postgresql.feature"/>
+         <iu id="org.eclipse.datatools.enablement.sap.feature"/>
+         <iu id="org.eclipse.datatools.enablement.sqlite.feature"/>
+         <iu id="org.eclipse.datatools.enablement.sybase.feature"/>
+         <iu id="org.eclipse.datatools.intro"/>
+         <iu id="org.eclipse.datatools.modelbase.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.data.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.ddl.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.ddlgen.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.parsers.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.results.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature"/>
+         <iu id="org.eclipse.datatools.sqltools.doc.user"/>
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               summary="The Eclipse Data Tools Platform provides extensible frameworks and exemplary tools, enabling a diverse set of plug-in offerings specific to particular data-centric technologies and supported by the DTP ecosystem.">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Infinitest is a continuous test runner for JUnit tests. Whenever you change a class, Infinitest runs your tests for you. It’s smart about what tests to run."
             id="org.infinitest.eclipse.feature"
