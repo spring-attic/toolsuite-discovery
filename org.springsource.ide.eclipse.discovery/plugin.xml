@@ -743,6 +743,7 @@
             description="Eclipse Data Tools, including a collection to database connectors to quickly access your data sources from within the IDE"
             id="org.eclipse.datatools.enablement.feature"
             license="Free, EPL"
+            kind="task"
             name="Eclipse Data Tools"
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
