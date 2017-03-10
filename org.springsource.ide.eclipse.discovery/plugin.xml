@@ -741,7 +741,7 @@
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Eclipse Data Tools, including a collection to database connectors to quickly access your data sources from within the IDE"
-            id="org.springframework.ide.eclipse.feature"
+            id="org.eclipse.datatools.enablement.feature"
             license="Free, EPL"
             name="Eclipse Data Tools"
             provider="Eclipse Foundation"
