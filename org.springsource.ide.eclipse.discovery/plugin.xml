@@ -136,205 +136,6 @@
       </connectorDescriptor>
 
      <!-- START Groovy-Eclipse -->
-      <!-- Groovy-Eclipse for Luna 4.4 -->
-       <connectorDescriptor
-             categoryId="com.springsource.sts.discovery-directory.framework.support"
-             description="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers."
-             id="org.codehaus.groovy.eclipse.feature"
-             kind="task, document"
-             license="Free, EPL/ASL"
-             groupId="certified"
-             name="Groovy-Eclipse"
-             provider="Codehaus.org"
-             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
- 			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.4">
-          <iu id="org.codehaus.groovy.eclipse.feature" />
-          <iu id="org.codehaus.groovy.jdt.patch" />
-          <icon
-                image32="images/groovy_32.png"></icon>
-          <overview
-                summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
-                url="http://groovy.codehaus.org/Eclipse+Plugin">
-          </overview>
-       </connectorDescriptor>
-       <connectorDescriptor
-             categoryId="com.springsource.sts.discovery-directory.framework.support"
-             description="This feature provides the Groovy 2.2 compiler for Groovy-Eclipse.  Once installed, the 2.2 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-             id="org.codehaus.groovy22.feature"
-             kind="task, document"
-             license="Free, EPL/ASL"
-             groupId="certified"
-             name="Groovy 2.2 Compiler for Groovy-Eclipse"
-             provider="Codehaus.org"
-             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
- 			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.4">
-          <iu id="org.codehaus.groovy22.feature" />
-          <icon
-                image32="images/groovy_32.png"></icon>
-          <overview
-                summary="The Groovy 2.2 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
-          </overview>
-       </connectorDescriptor>
-       <connectorDescriptor
-             categoryId="com.springsource.sts.discovery-directory.framework.support"
-             description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-             id="org.codehaus.groovy23.feature"
-             kind="task, document"
-             license="Free, EPL/ASL"
-             groupId="certified"
-             name="Groovy 2.3 Compiler for Groovy-Eclipse"
-             provider="Codehaus.org"
-             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
- 			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.4">
-          <iu id="org.codehaus.groovy23.feature" />
-          <icon
-                image32="images/groovy_32.png"></icon>
-          <overview
-                summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
-          </overview>
-       </connectorDescriptor>
-       <connectorDescriptor
-             categoryId="com.springsource.sts.discovery-directory.framework.support"
-             description="This feature provides the Groovy 2.4 compiler for Groovy-Eclipse.  Once installed, the 2.4 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-             id="org.codehaus.groovy24.feature"
-             kind="task, document"
-             license="Free, EPL/ASL"
-             groupId="certified"
-             name="Groovy 2.4 Compiler for Groovy-Eclipse"
-             provider="Codehaus.org"
-             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
- 			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.4">
-          <iu id="org.codehaus.groovy24.feature" />
-          <icon
-                image32="images/groovy_32.png"></icon>
-          <overview
-                summary="The Groovy 2.4 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
-          </overview>
-       </connectorDescriptor>
-       <connectorDescriptor
-             categoryId="com.springsource.sts.discovery-directory.framework.support"
-             description="This feature provides integration between Groovy-Eclipse and M2Eclipse. Only install this feature if you are using Groovy and Maven inside of STS"
-             id="org.codehaus.groovy.m2eclipse.feature"
-             kind="task, document"
-             license="Free, EPL"
-             groupId="certified"
-             name="Groovy-Eclipse Configurator for M2Eclipse"
-             provider="Codehaus.org"
-             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
- 			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.4">
-          <iu id="org.codehaus.groovy.m2eclipse.feature" />
-          <iu id="org.codehaus.groovy.jdt.patch" />
-          <icon
-                image32="images/groovy_32.png"></icon>
-          <overview
-                summary="This feature provides the Groovy-Eclipse configurator for M2Eclipse"
-                url="http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
-          </overview>
-       </connectorDescriptor>
-
-       <!-- Groovy-Eclipse for Mars 4.5 -->
-        <connectorDescriptor
-              categoryId="com.springsource.sts.discovery-directory.framework.support"
-              description="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers."
-              id="org.codehaus.groovy.eclipse.feature"
-              kind="task, document"
-              license="Free, EPL/ASL"
-              groupId="certified"
-              name="Groovy-Eclipse"
-              provider="Codehaus.org"
-              platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-  			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.5">
-           <iu id="org.codehaus.groovy.eclipse.feature" />
-           <iu id="org.codehaus.groovy.jdt.patch" />
-           <icon
-                 image32="images/groovy_32.png"></icon>
-           <overview
-                 summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
-                 url="http://groovy.codehaus.org/Eclipse+Plugin">
-           </overview>
-        </connectorDescriptor>
-        <connectorDescriptor
-              categoryId="com.springsource.sts.discovery-directory.framework.support"
-              description="This feature provides the Groovy 2.2 compiler for Groovy-Eclipse.  Once installed, the 2.2 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-              id="org.codehaus.groovy22.feature"
-              kind="task, document"
-              license="Free, EPL/ASL"
-              groupId="certified"
-              name="Groovy 2.2 Compiler for Groovy-Eclipse"
-              provider="Codehaus.org"
-              platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-  			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.5">
-           <iu id="org.codehaus.groovy22.feature" />
-           <icon
-                 image32="images/groovy_32.png"></icon>
-           <overview
-                 summary="The Groovy 2.2 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                 url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
-           </overview>
-        </connectorDescriptor>
-        <connectorDescriptor
-              categoryId="com.springsource.sts.discovery-directory.framework.support"
-              description="This feature provides the Groovy 2.3 compiler for Groovy-Eclipse.  Once installed, the 2.3 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-              id="org.codehaus.groovy23.feature"
-              kind="task, document"
-              license="Free, EPL/ASL"
-              groupId="certified"
-              name="Groovy 2.3 Compiler for Groovy-Eclipse"
-              provider="Codehaus.org"
-              platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-  			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.5">
-           <iu id="org.codehaus.groovy23.feature" />
-           <icon
-                 image32="images/groovy_32.png"></icon>
-           <overview
-                 summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                 url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
-           </overview>
-        </connectorDescriptor>
-        <connectorDescriptor
-              categoryId="com.springsource.sts.discovery-directory.framework.support"
-              description="This feature provides the Groovy 2.4 compiler for Groovy-Eclipse.  Once installed, the 2.4 compiler becomes the default for the workspace.  And other compilers can be uses through the system preferences."
-              id="org.codehaus.groovy24.feature"
-              kind="task, document"
-              license="Free, EPL/ASL"
-              groupId="certified"
-              name="Groovy 2.4 Compiler for Groovy-Eclipse"
-              provider="Codehaus.org"
-              platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-  			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.5">
-           <iu id="org.codehaus.groovy24.feature" />
-           <icon
-                 image32="images/groovy_32.png"></icon>
-           <overview
-                 summary="The Groovy 2.4 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                 url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
-           </overview>
-        </connectorDescriptor>
-        <connectorDescriptor
-              categoryId="com.springsource.sts.discovery-directory.framework.support"
-              description="This feature provides integration between Groovy-Eclipse and M2Eclipse. Only install this feature if you are using Groovy and Maven inside of STS"
-              id="org.codehaus.groovy.m2eclipse.feature"
-              kind="task, document"
-              license="Free, EPL"
-              groupId="certified"
-              name="Groovy-Eclipse Configurator for M2Eclipse"
-              provider="Codehaus.org"
-              platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-  			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.5">
-           <iu id="org.codehaus.groovy.m2eclipse.feature" />
-           <iu id="org.codehaus.groovy.jdt.patch" />
-           <icon
-                 image32="images/groovy_32.png"></icon>
-           <overview
-                 summary="This feature provides the Groovy-Eclipse configurator for M2Eclipse"
-                 url="http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
-           </overview>
-        </connectorDescriptor>
-
-
         <!-- Groovy-Eclipse for Mars 4.6 -->
          <connectorDescriptor
                categoryId="com.springsource.sts.discovery-directory.framework.support"
@@ -550,56 +351,10 @@
             kind="task, document"
             groupId="certified"
             license="Free, EPL"
-            name="Gradle STS Legacy Support"
-            provider="Pivotal Software, Inc."
-            platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
-         <icon
-               image32="images/gradle_32.png">
-         </icon>
-         <overview
-               summary="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
-               url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="For those not yet ready to move onto BuildShip, this is the old STS support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
-            id="org.springsource.ide.eclipse.gradle.feature"
-            kind="task, document"
-            groupId="certified"
-            license="Free, EPL"
-            name="Gradle (STS Legacy) Support"
-            provider="Pivotal Software, Inc."
-            platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
-         <icon
-               image32="images/gradle_32.png">
-         </icon>
-         <overview
-               summary="Support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
-               url="http://static.springsource.org/sts/docs/latest/reference/html/gradle/index.html">
-         </overview>
-      </connectorDescriptor>
-	  
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="For those not yet ready to move onto BuildShip, this is the old STS support for importing and working with Gradle projects in STS, automatic dependency management, executing Gradle tasks."
-            id="org.springsource.ide.eclipse.gradle.feature"
-            kind="task, document"
-            groupId="certified"
-            license="Free, EPL"
             name="Gradle (STS Legacy) Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.6">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
@@ -622,7 +377,7 @@
             name="Gradle (STS Legacy) Support"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.7"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7"> -->
@@ -636,6 +391,47 @@
       </connectorDescriptor>
       <!-- END Gradle-IDE -->
 
+      <!-- BEGIN STS4 Language Server -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="STS4 Language Server - Cloud Foundry Manifest Editing Support"
+            id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Cloud Foundry Manifest Editing Support Language Server"
+            provider="Pivotal Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/sts4-language-servers">
+         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature" />
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="Advanved support for editing Cloud Foundry manifest files">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="STS4 Language Server - Cloud Foundry Manifest Editing Support"
+            id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Cloud Foundry Manifest Editing Support Language Server"
+            provider="Pivotal Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/sts4-language-servers">
+         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature" />
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="Advanved support for editing Cloud Foundry manifest files">
+         </overview>
+      </connectorDescriptor>
+
       <!-- BEGIN Spring-IDE -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
@@ -646,76 +442,8 @@
             license="Free, EPL"
             name="Spring IDE"
             provider="Pivotal Software, Inc."
-            platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
-         <iu id="org.springframework.ide.eclipse.feature" />
-         <iu id="org.springframework.ide.eclipse.aop.feature" />
-         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
-         <iu id="org.springframework.ide.eclipse.security.feature" />
-         <iu id="org.springframework.ide.eclipse.webflow.feature" />
-         <iu id="org.springframework.ide.eclipse.batch.feature" />
-         <iu id="org.springframework.ide.eclipse.integration.feature" />
-         <iu id="org.springframework.ide.eclipse.autowire.feature" />
-         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
-         <iu id="org.springframework.ide.eclipse.maven.feature" />
-         <iu id="org.springframework.ide.eclipse.data.feature" />
-         <iu id="org.springframework.ide.eclipse.boot.dash.feature" />
-         <icon
-               image32="images/spring.png">
-         </icon>
-         <overview
-               summary="Full-featured support for working with Spring projects.">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Full-featured support for working with Spring projects"
-            id="org.springframework.ide.eclipse.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring IDE"
-            provider="Pivotal Software, Inc."
-            platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
-         <iu id="org.springframework.ide.eclipse.feature" />
-         <iu id="org.springframework.ide.eclipse.aop.feature" />
-         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
-         <iu id="org.springframework.ide.eclipse.security.feature" />
-         <iu id="org.springframework.ide.eclipse.webflow.feature" />
-         <iu id="org.springframework.ide.eclipse.batch.feature" />
-         <iu id="org.springframework.ide.eclipse.integration.feature" />
-         <iu id="org.springframework.ide.eclipse.autowire.feature" />
-         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
-         <iu id="org.springframework.ide.eclipse.maven.feature" />
-         <iu id="org.springframework.ide.eclipse.data.feature" />
-         <iu id="org.springframework.ide.eclipse.boot.dash.feature" />
-         <icon
-               image32="images/spring.png">
-         </icon>
-         <overview
-               summary="Full-featured support for working with Spring projects.">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Full-featured support for working with Spring projects"
-            id="org.springframework.ide.eclipse.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring IDE"
-            provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.6">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
@@ -738,6 +466,7 @@
                summary="Full-featured support for working with Spring projects.">
          </overview>
       </connectorDescriptor>
+	  
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Full-featured support for working with Spring projects"
@@ -748,7 +477,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.7"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7"> -->
@@ -783,52 +512,8 @@
             license="Free, EPL"
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
-            platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
-         <icon
-               image32="images/spring.png">
-         </icon>
-         <overview
-               summary="Spring IDE Extension to support Spring Roo development from within the IDE">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Spring IDE Extension to support Spring Roo development from within the IDE"
-            id="org.springframework.ide.eclipse.roo.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring IDE - Roo Extension"
-            provider="Pivotal Software, Inc., Disid"
-            platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
-         <icon
-               image32="images/spring.png">
-         </icon>
-         <overview
-               summary="Spring IDE Extension to support Spring Roo development from within the IDE">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Spring IDE Extension to support Spring Roo development from within the IDE"
-            id="org.springframework.ide.eclipse.roo.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring IDE - Roo Extension"
-            provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.6">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.6"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6"> -->
@@ -850,7 +535,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.7"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7"> -->
@@ -973,6 +658,60 @@
       </connectorDescriptor>
 
       <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Eclipse Data Tools, including a collection to database connectors to quickly access your data sources from within the IDE"
+            id="org.eclipse.datatools.enablement.feature"
+            license="Free, EPL"
+            kind="task"
+            groupId="certified"
+            name="Eclipse Data Tools"
+            provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
+			siteUrl="http://download.eclipse.org/releases/oxygen">
+         <iu id="org.eclipse.datatools.common.doc.user"/>
+         <iu id="org.eclipse.datatools.connectivity.doc.user"/>
+         <iu id="org.eclipse.datatools.connectivity.feature"/>
+         <iu id="org.eclipse.datatools.connectivity.oda.designer.core.feature"/>
+         <iu id="org.eclipse.datatools.connectivity.oda.designer.feature"/>
+         <iu id="org.eclipse.datatools.connectivity.oda.feature"/>
+         <iu id="org.eclipse.datatools.doc.user"/>
+         <iu id="org.eclipse.datatools.enablement.apache.derby.feature"/>
+         <iu id="org.eclipse.datatools.enablement.feature"/>
+         <iu id="org.eclipse.datatools.enablement.hsqldb.feature"/>
+         <iu id="org.eclipse.datatools.enablement.ibm.feature"/>
+         <iu id="org.eclipse.datatools.enablement.ingres.feature"/>
+         <iu id="org.eclipse.datatools.enablement.jdbc.feature"/>
+         <iu id="org.eclipse.datatools.enablement.jdt.feature"/>
+         <iu id="org.eclipse.datatools.enablement.msft.feature"/>
+         <iu id="org.eclipse.datatools.enablement.mysql.feature"/>
+         <iu id="org.eclipse.datatools.enablement.oda.designer.feature"/>
+         <iu id="org.eclipse.datatools.enablement.oda.feature"/>
+         <iu id="org.eclipse.datatools.enablement.oracle.feature"/>
+         <iu id="org.eclipse.datatools.enablement.postgresql.feature"/>
+         <iu id="org.eclipse.datatools.enablement.sap.feature"/>
+         <iu id="org.eclipse.datatools.enablement.sqlite.feature"/>
+         <iu id="org.eclipse.datatools.enablement.sybase.feature"/>
+         <iu id="org.eclipse.datatools.intro"/>
+         <iu id="org.eclipse.datatools.modelbase.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.data.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.ddl.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.ddlgen.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.parsers.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.results.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature"/>
+         <iu id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature"/>
+         <iu id="org.eclipse.datatools.sqltools.doc.user"/>
+
+         <icon
+               image32="images/eclipse_32.gif">
+         </icon>
+         <overview
+               summary="The Eclipse Data Tools Platform provides extensible frameworks and exemplary tools, enabling a diverse set of plug-in offerings specific to particular data-centric technologies and supported by the DTP ecosystem.">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Infinitest is a continuous test runner for JUnit tests. Whenever you change a class, Infinitest runs your tests for you. It’s smart about what tests to run."
             id="org.infinitest.eclipse.feature"
@@ -1059,53 +798,6 @@
             license="Free, EPL"
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
-            platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.4"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.4"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.4"> -->
-         <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
-         <iu id="com.vmware.vfabric.ide.eclipse.tcserver.insight" />
-         <icon
-               image32="images/spring.png">
-         </icon>
-         <overview
-               summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
-         </overview>
-      </connectorDescriptor>
-	  
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.runtimes"
-            description="Pivotal tc Server Integration for Eclipse"
-            id="com.vmware.vfabric.ide.eclipse.tcserver"
-            kind="task"
-            license="Free, EPL"
-            name="Pivotal tc Server Integration for Eclipse"
-            provider="Pivotal Software, Inc."
-            platformFilter="(&amp;(platform.version&gt;=4.5.0)(platform.version&lt;=4.5.9))"
-			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5">
-<!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.5"> -->
-<!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.5"> -->
-<!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.5"> -->
-         <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
-         <icon
-               image32="images/spring.png">
-         </icon>
-         <overview
-               summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
-         </overview>
-      </connectorDescriptor>
-	  
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.runtimes"
-            description="Pivotal tc Server Integration for Eclipse"
-            id="com.vmware.vfabric.ide.eclipse.tcserver"
-            kind="task"
-            license="Free, EPL"
-            name="Pivotal tc Server Integration for Eclipse"
-            provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
 			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.6">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.6"> -->
@@ -1130,7 +822,7 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://dist.springsource.com/snapshot/TOOLS/nightly/e4.7">
+			siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7">
 <!--            siteUrl="http://download.springsource.com/milestone/TOOLS/update/e4.7"> -->
 <!--            siteUrl="http://download.springsource.com/snapshot/TOOLS/nightly/e4.7"> -->
 <!--            siteUrl="http://dist.springsource.com/release/TOOLS/update/e4.7"> -->
@@ -1203,7 +895,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="Eclipse, Inc."
-            siteUrl="http://download.eclipse.org/cft/1.0.1.M1/">
+            siteUrl="http://download.eclipse.org/cft/1.1.0/">
          <iu id="org.eclipse.cft.server.core.feature" />
          <iu id="org.eclipse.cft.server.ui.feature" />
          <icon
