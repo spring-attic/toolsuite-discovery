@@ -86,18 +86,18 @@
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="EclEmma is a free Java code coverage tool for Eclipse based on the great EMMA Java code coverage tool."
-            id="com.mountainminds.eclemma.feature"
+            id="org.eclipse.eclemma.feature"
             kind="task"
             license="Free, EPL"
             name="EclEmma"
-            provider="Mountainminds GmbH"
+            provider="Eclipse"
             siteUrl="http://update.eclemma.org/">
          <icon
                image32="images/eclemma_32.gif"></icon>
          <overview
                screenshot="images/eclemma_screen.gif"
                summary="%eclemma.description"
-               url="http://www.eclemma.org/">
+               url="https://projects.eclipse.org/projects/technology.eclemma">
          </overview>
       </connectorDescriptor>
       <connectorDescriptor
