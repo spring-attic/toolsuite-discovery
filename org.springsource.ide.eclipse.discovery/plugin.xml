@@ -147,7 +147,7 @@
                name="Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy.eclipse.feature" />
             <iu id="org.codehaus.groovy.jdt.patch" />
             <icon
@@ -168,7 +168,7 @@
                name="Groovy 2.2 Compiler for Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy22.feature" />
             <icon
                   image32="images/groovy_32.png"></icon>
@@ -188,7 +188,7 @@
                name="Groovy 2.3 Compiler for Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy23.feature" />
             <icon
                   image32="images/groovy_32.png"></icon>
@@ -208,7 +208,7 @@
                name="Groovy 2.4 Compiler for Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy24.feature" />
             <icon
                   image32="images/groovy_32.png"></icon>
@@ -228,7 +228,7 @@
                name="Groovy-Eclipse Configurator for M2Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy.m2eclipse.feature" />
             <iu id="org.codehaus.groovy.jdt.patch" />
             <icon
@@ -429,6 +429,33 @@
          </icon>
          <overview
                summary="Advanved support for editing Cloud Foundry manifest files">
+         </overview>
+      </connectorDescriptor>
+
+	  <!-- Spring Tools 4 Public Beta - Early Access Extension Pack -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Spring Tools 4 Public Beta - Early Access Extension Pack"
+            id="org.springframework.tooling.boot.java.ls.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring Tools 4 Public Beta - Early Access Extension Pack"
+            provider="Pivotal Inc."
+            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.2)(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
+			siteUrl="http://dist.springsource.com/release/TOOLS/sts4/update/e4.7/">
+         <iu id="org.springframework.tooling.boot.java.ls.feature" />
+         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature" />
+         <iu id="org.springframework.tooling.bosh.ls.feature" />
+         <iu id="org.springframework.tooling.concourse.ls.feature" />
+         <icon
+               image32="images/sts4-32.png">
+         </icon>
+         <overview
+               summary="The Spring Tools 4 Public Beta - Early Access Extension Pack allows you to install the latest public beta of the Spring Tools 4 features as
+			   an early-access feature into an existing STS 3.9.x installation. This is for early adopters that want to try the new Spring Tools 4 features and not meant
+			   for production use. Once the first full version of the Spring Tools 4 got released, we recommend to start with a fresh Spring Tools 4 distribution
+			   installation instead of adding Spring Tools 4 features into an existing STS 3.9.x installation.">
          </overview>
       </connectorDescriptor>
 
