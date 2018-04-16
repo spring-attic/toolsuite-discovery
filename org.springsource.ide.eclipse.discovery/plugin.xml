@@ -443,7 +443,7 @@
             name="Spring Tools 4 Public Beta - Early Access Extension Pack"
             provider="Pivotal Inc."
             platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.2)(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/sts4/update/e4.7/">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/sts4-language-server-integrations/20180406/">
          <iu id="org.springframework.tooling.boot.ls.feature" />
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature" />
          <iu id="org.springframework.tooling.bosh.ls.feature" />
@@ -469,7 +469,7 @@
             name="Spring Tools 4 Public Beta - Early Access Extension Pack"
             provider="Pivotal Inc."
             platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.2)(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/sts4/update/e4.8/">
+			siteUrl="http://download.springsource.com/milestone/TOOLS/sts4-language-server-integrations/20180406/">
          <iu id="org.springframework.tooling.boot.ls.feature" />
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature" />
          <iu id="org.springframework.tooling.bosh.ls.feature" />
