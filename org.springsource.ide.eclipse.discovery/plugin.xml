@@ -540,6 +540,48 @@
          </overview>
       </connectorDescriptor>
 
+      <!-- BEGIN Buildship -->
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Buildship 2: Gradle Support for Eclipse"
+            id="org.eclipse.buildship"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Buildship 2"
+            provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
+			siteUrl="http://download.eclipse.org/releases/photon/">
+         <iu id="org.eclipse.buildship" />
+         <icon
+               image32="images/buildship.png">
+         </icon>
+         <overview
+               summary="Buildship: Gradle Support for Eclipse">
+         </overview>
+      </connectorDescriptor>
+	  
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Buildship 2: Gradle Support for Eclipse"
+            id="org.eclipse.buildship"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Buildship 2"
+            provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.9.0)(platform.version&lt;=4.9.9))"
+			siteUrl="http://download.eclipse.org/releases/2018-09/">
+         <iu id="org.eclipse.buildship" />
+         <icon
+               image32="images/buildship.png">
+         </icon>
+         <overview
+               summary="Buildship: Gradle Support for Eclipse">
+         </overview>
+      </connectorDescriptor>
+      <!-- END Buildship -->
+	  
       <!-- BEGIN Spring-IDE -->
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
