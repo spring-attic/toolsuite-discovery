@@ -63,7 +63,7 @@
          </icon>
 		 <overview
 			summary="Contrast for Eclipse enables developers to quickly and efficiently create secure code free of OWASP Top 10 vulnerabilities.  It brings Contrast’s award winning application security technology to Java developers via a fully integrated Eclipse Java IDE experience. Contrast for Eclipse not only speeds vulnerability remediation, it  enables application security pros and developers to work together to reduce risk."
-          	url="http://www1.contrastsecurity.com/eclipse8">
+          	url="https://www1.contrastsecurity.com/eclipse8">
          </overview>
       </connectorDescriptor>
 
@@ -75,12 +75,12 @@
             license="Free, EPL, Incubation"
             name="EGit"
             provider="Eclipse Git"
-            siteUrl="http://download.eclipse.org/egit/updates">
+            siteUrl="https://download.eclipse.org/egit/updates">
          <icon
                image32="images/egit_32.png">
          </icon>
          <overview
-               url="http://www.eclipse.org/egit/">
+               url="https://www.eclipse.org/egit/">
          </overview>
       </connectorDescriptor>
       <connectorDescriptor
@@ -91,7 +91,7 @@
             license="Free, EPL"
             name="EclEmma"
             provider="Eclipse"
-            siteUrl="http://update.eclemma.org/">
+            siteUrl="https://update.eclemma.org/">
          <icon
                image32="images/eclemma_32.gif"></icon>
          <overview
@@ -108,10 +108,10 @@
             license="Free, EPL"
             name="FindBugs"
             provider="University of Maryland"
-            siteUrl="http://findbugs.cs.umd.edu/eclipse">
+            siteUrl="https://findbugs.cs.umd.edu/eclipse">
          <overview
                summary="FindBugs - Find Bugs in Java Programs"
-               url="http://findbugs.sourceforge.net/">
+               url="https://findbugs.sourceforge.net/">
          </overview>
          <icon
                image32="images/findbugs_32.png">
@@ -125,13 +125,13 @@
             license="Free, BSD"
             name="PMD"
             provider="InfoEther"
-            siteUrl="http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/">
+            siteUrl="https://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/">
          <icon
                image32="images/pmd_32.gif">
          </icon>
          <overview
                summary="%pmd.description"
-               url="http://pmd.sourceforge.net/">
+               url="https://pmd.sourceforge.net/">
          </overview>
       </connectorDescriptor>
 
@@ -147,14 +147,14 @@
                name="Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy.eclipse.feature" />
             <iu id="org.codehaus.groovy.jdt.patch" />
             <icon
                   image32="images/groovy_32.png"></icon>
             <overview
                   summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
-                  url="http://groovy.codehaus.org/Eclipse+Plugin">
+                  url="https://groovy.codehaus.org/Eclipse+Plugin">
             </overview>
          </connectorDescriptor>
 
@@ -168,13 +168,13 @@
                name="Groovy 2.2 Compiler for Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy22.feature" />
             <icon
                   image32="images/groovy_32.png"></icon>
             <overview
                   summary="The Groovy 2.2 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                  url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                  url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
             </overview>
          </connectorDescriptor>
 
@@ -188,13 +188,13 @@
                name="Groovy 2.3 Compiler for Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy23.feature" />
             <icon
                   image32="images/groovy_32.png"></icon>
             <overview
                   summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                  url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                  url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
             </overview>
          </connectorDescriptor>
 		 
@@ -208,13 +208,13 @@
                name="Groovy 2.4 Compiler for Groovy-Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy24.feature" />
             <icon
                   image32="images/groovy_32.png"></icon>
             <overview
                   summary="The Groovy 2.4 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                  url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                  url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
             </overview>
          </connectorDescriptor>
 		 
@@ -228,14 +228,14 @@
                name="Groovy-Eclipse Configurator for M2Eclipse"
                provider="Codehaus.org"
                platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-   			   siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
+   			   siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.6">
             <iu id="org.codehaus.groovy.m2eclipse.feature" />
             <iu id="org.codehaus.groovy.jdt.patch" />
             <icon
                   image32="images/groovy_32.png"></icon>
             <overview
                   summary="This feature provides the Groovy-Eclipse configurator for M2Eclipse"
-                  url="http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
+                  url="https://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
             </overview>
          </connectorDescriptor>
 		 
@@ -250,14 +250,14 @@
                 name="Groovy-Eclipse"
                 provider="Codehaus.org"
                 platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-    			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
+    			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
              <iu id="org.codehaus.groovy.eclipse.feature" />
              <iu id="org.codehaus.groovy.jdt.patch" />
              <icon
                    image32="images/groovy_32.png"></icon>
              <overview
                    summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
-                   url="http://groovy.codehaus.org/Eclipse+Plugin">
+                   url="https://groovy.codehaus.org/Eclipse+Plugin">
              </overview>
           </connectorDescriptor>
 
@@ -271,13 +271,13 @@
                 name="Groovy 2.2 Compiler for Groovy-Eclipse"
                 provider="Codehaus.org"
                 platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-    			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
+    			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
              <iu id="org.codehaus.groovy22.feature" />
              <icon
                    image32="images/groovy_32.png"></icon>
              <overview
                    summary="The Groovy 2.2 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                   url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                   url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
              </overview>
           </connectorDescriptor>
 
@@ -291,13 +291,13 @@
                 name="Groovy 2.3 Compiler for Groovy-Eclipse"
                 provider="Codehaus.org"
                 platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-    			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
+    			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
              <iu id="org.codehaus.groovy23.feature" />
              <icon
                    image32="images/groovy_32.png"></icon>
              <overview
                    summary="The Groovy 2.3 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                   url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                   url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
              </overview>
           </connectorDescriptor>
 		 
@@ -311,13 +311,13 @@
                 name="Groovy 2.4 Compiler for Groovy-Eclipse"
                 provider="Codehaus.org"
                 platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-    			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
+    			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
              <iu id="org.codehaus.groovy24.feature" />
              <icon
                    image32="images/groovy_32.png"></icon>
              <overview
                    summary="The Groovy 2.4 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                   url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                   url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
              </overview>
           </connectorDescriptor>
 		 
@@ -331,14 +331,14 @@
                 name="Groovy-Eclipse Configurator for M2Eclipse"
                 provider="Codehaus.org"
                 platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-    			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
+    			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.7">
              <iu id="org.codehaus.groovy.m2eclipse.feature" />
              <iu id="org.codehaus.groovy.jdt.patch" />
              <icon
                    image32="images/groovy_32.png"></icon>
              <overview
                    summary="This feature provides the Groovy-Eclipse configurator for M2Eclipse"
-                   url="http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
+                   url="https://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
              </overview>
           </connectorDescriptor>
 
@@ -353,14 +353,14 @@
                  name="Groovy-Eclipse"
                  provider="Codehaus.org"
                  platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-     			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
+     			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
               <iu id="org.codehaus.groovy.eclipse.feature" />
               <iu id="org.codehaus.groovy.jdt.patch" />
               <icon
                     image32="images/groovy_32.png"></icon>
               <overview
                     summary="The purpose of the Groovy-Eclipse plugin is to promote the Groovy platform and ecosystem as a viable and productive development environment for Java developers working in the Eclipse SDK."
-                    url="http://groovy.codehaus.org/Eclipse+Plugin">
+                    url="https://groovy.codehaus.org/Eclipse+Plugin">
               </overview>
            </connectorDescriptor>
 
@@ -374,13 +374,13 @@
                  name="Groovy 2.4 Compiler for Groovy-Eclipse"
                  provider="Codehaus.org"
                  platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-     			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
+     			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
               <iu id="org.codehaus.groovy24.feature" />
               <icon
                     image32="images/groovy_32.png"></icon>
               <overview
                     summary="The Groovy 2.4 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                    url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                    url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
               </overview>
            </connectorDescriptor>
 		 
@@ -394,13 +394,13 @@
                  name="Groovy 2.5 Compiler for Groovy-Eclipse"
                  provider="Codehaus.org"
                  platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-     			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
+     			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
               <iu id="org.codehaus.groovy25.feature" />
               <icon
                     image32="images/groovy_32.png"></icon>
               <overview
                     summary="The Groovy 2.5 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                    url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                    url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
               </overview>
            </connectorDescriptor>
 		 
@@ -414,13 +414,13 @@
                  name="Groovy 2.6 Compiler for Groovy-Eclipse"
                  provider="Codehaus.org"
                  platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-     			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
+     			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
               <iu id="org.codehaus.groovy26.feature" />
               <icon
                     image32="images/groovy_32.png"></icon>
               <overview
                     summary="The Groovy 2.6 compiler provides a static compilation mode for Groovy and many other features.  However, it is not compatible with the most recent version of Grails 2.x."
-                    url="http://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
+                    url="https://groovy.codehaus.org/Compiler+Switching+within+Groovy-Eclipse">
               </overview>
            </connectorDescriptor>
 		 
@@ -434,14 +434,14 @@
                  name="Groovy-Eclipse Configurator for M2Eclipse"
                  provider="Codehaus.org"
                  platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-     			siteUrl="http://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
+     			siteUrl="https://dist.springsource.org/snapshot/GRECLIPSE/e4.8">
               <iu id="org.codehaus.groovy.m2eclipse.feature" />
               <iu id="org.codehaus.groovy.jdt.patch" />
               <icon
                     image32="images/groovy_32.png"></icon>
               <overview
                     summary="This feature provides the Groovy-Eclipse configurator for M2Eclipse"
-                    url="http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
+                    url="https://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven">
               </overview>
            </connectorDescriptor>
       <!-- END Groovy-Eclipse -->
@@ -457,7 +457,7 @@
             name="Cloud Foundry Manifest Editing Support Language Server"
             provider="Pivotal Inc."
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/sts4-language-servers">
+			siteUrl="https://download.springsource.com/release/TOOLS/sts4-language-servers">
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature" />
          <icon
                image32="images/spring.png">
@@ -477,7 +477,7 @@
             name="Cloud Foundry Manifest Editing Support Language Server"
             provider="Pivotal Inc."
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/sts4-language-servers">
+			siteUrl="https://download.springsource.com/release/TOOLS/sts4-language-servers">
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature" />
          <icon
                image32="images/spring.png">
@@ -498,7 +498,7 @@
             name="Spring Tools 4 Public Beta - Early Access Extension Pack"
             provider="Pivotal Inc."
             platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.2)(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.springsource.com/milestone/TOOLS/sts4-language-server-integrations/20180406/">
+			siteUrl="https://download.springsource.com/milestone/TOOLS/sts4-language-server-integrations/20180406/">
          <iu id="org.springframework.tooling.boot.ls.feature" />
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature" />
          <iu id="org.springframework.tooling.bosh.ls.feature" />
@@ -524,7 +524,7 @@
             name="Spring Tools 4 Add-On Extension Pack"
             provider="Pivotal Inc."
             platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.6)(platform.version&gt;=4.9.0)(platform.version&lt;=4.9.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/sts4/update/e4.9/">
+			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.9/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
@@ -550,7 +550,7 @@
             name="Spring Tools 4 Add-On Extension Pack"
             provider="Pivotal Inc."
             platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.7)(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/sts4/update/e4.10/">
+			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.10/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
@@ -577,7 +577,7 @@
             name="Buildship 2"
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-			siteUrl="http://download.eclipse.org/releases/photon/">
+			siteUrl="https://download.eclipse.org/releases/photon/">
          <iu id="org.eclipse.buildship" />
          <icon
                image32="images/buildship.png">
@@ -597,7 +597,7 @@
             name="Buildship 2"
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.9.0)(platform.version&lt;=4.9.9))"
-			siteUrl="http://download.eclipse.org/releases/2018-09/">
+			siteUrl="https://download.eclipse.org/releases/2018-09/">
          <iu id="org.eclipse.buildship" />
          <icon
                image32="images/buildship.png">
@@ -617,7 +617,7 @@
             name="Buildship 2"
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
-			siteUrl="http://download.eclipse.org/releases/2018-12/">
+			siteUrl="https://download.eclipse.org/releases/2018-12/">
          <iu id="org.eclipse.buildship" />
          <icon
                image32="images/buildship.png">
@@ -639,7 +639,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.6">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.6">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -670,7 +670,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.7">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.7">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -701,7 +701,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.8">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.8">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -732,7 +732,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.9.0)(platform.version&lt;=4.9.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.9">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.9">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -763,7 +763,7 @@
             name="Spring IDE"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.10">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.10">
          <iu id="org.springframework.ide.eclipse.feature" />
          <iu id="org.springframework.ide.eclipse.aop.feature" />
          <iu id="org.springframework.ide.eclipse.ajdt.feature" />
@@ -796,7 +796,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.6">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.6">
          <icon
                image32="images/spring.png">
          </icon>
@@ -815,7 +815,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.7">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.7">
          <icon
                image32="images/spring.png">
          </icon>
@@ -834,7 +834,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.8">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.8">
          <icon
                image32="images/spring.png">
          </icon>
@@ -853,7 +853,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.9.0)(platform.version&lt;=4.9.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.9">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.9">
          <icon
                image32="images/spring.png">
          </icon>
@@ -872,7 +872,7 @@
             name="Spring IDE - Roo Extension"
             provider="Pivotal Software, Inc., Disid"
             platformFilter="(&amp;(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.10">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.10">
          <icon
                image32="images/spring.png">
          </icon>
@@ -892,13 +892,13 @@
             name="Spring Roo (current production release)"
             provider="Pivotal Software, Inc."
             platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts380">
+            siteUrl="https://download.springsource.com/release/TOOLS/extensions/sts380">
          <icon
                image32="images/spring_roo_32.png">
          </icon>
          <overview
                summary="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
-               url="http://www.springsource.org/roo">
+               url="https://www.springsource.org/roo">
          </overview>
       </connectorDescriptor>
       <!--<connectorDescriptor
@@ -910,13 +910,13 @@
             license="Free, GPL v3"
             name="Spring Roo (1.1 snapshot release)"
             provider="SpringSource, a division of VMware, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/e3.5">
+            siteUrl="https://download.springsource.com/release/TOOLS/extensions/e3.5">
          <icon
                image32="images/spring_roo_32.png">
          </icon>
          <overview
                summary="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
-               url="http://www.springsource.org/roo">
+               url="https://www.springsource.org/roo">
          </overview>
       </connectorDescriptor>-->
 <!--      <connectorDescriptor
@@ -928,13 +928,13 @@
             license="Free, ASL"
             name="Grails (current production release)"
             provider="Pivotal Software, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts380">
+            siteUrl="https://download.springsource.com/release/TOOLS/extensions/sts380">
          <icon
                image32="images/grails_32.png">
          </icon>
          <overview
                summary="Grails is a high-productivity web framework based on the Groovy language that embraces the coding by convention paradigm."
-               url="http://www.grails.org">
+               url="https://www.grails.org">
          </overview>
       </connectorDescriptor>-->
 
@@ -948,7 +948,7 @@
             name="Eclipse Data Tools"
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://download.eclipse.org/releases/neon">
+			siteUrl="https://download.eclipse.org/releases/neon">
          <iu id="org.eclipse.datatools.common.doc.user"/>
          <iu id="org.eclipse.datatools.connectivity.doc.user"/>
          <iu id="org.eclipse.datatools.connectivity.feature"/>
@@ -1001,7 +1001,7 @@
             name="Eclipse Data Tools"
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.eclipse.org/releases/oxygen">
+			siteUrl="https://download.eclipse.org/releases/oxygen">
          <iu id="org.eclipse.datatools.common.doc.user"/>
          <iu id="org.eclipse.datatools.connectivity.doc.user"/>
          <iu id="org.eclipse.datatools.connectivity.feature"/>
@@ -1053,14 +1053,14 @@
             license="Free, GPL v3"
             name="Infinitest"
             provider="Improving Works"
-            siteUrl="http://infinitest.github.com">
+            siteUrl="https://infinitest.github.com">
          <icon
                image32="images/infinitest_32.png">
          </icon>
          <overview
                screenshot="images/infinitest_screenshot.png"
                summary="Infinitest is a continuous test runner for JUnit tests. Whenever you change a class, Infinitest runs your tests for you. It’s smart about what tests to run, and only runs the ones you need. It reports test errors in the same way Eclipse reports compile errors, and provides additional information that helps you write better tests."
-               url="http://improvingworks.com">
+               url="https://improvingworks.com">
          </overview>
       </connectorDescriptor>
 
@@ -1074,7 +1074,7 @@
             name="Google Plugin for Eclipse"
             platformFilter="(platform.version&gt;=4.4.0)"
             provider="Google"
-            siteUrl="http://dl.google.com/eclipse/plugin/4.4">
+            siteUrl="https://dl.google.com/eclipse/plugin/4.4">
          <iu id="com.google.gdt.eclipse.suite.e44.feature" />
          <iu id="com.google.appengine.eclipse.sdkbundle.feature" />
          <iu id="com.google.gwt.eclipse.sdkbundle.feature" />
@@ -1083,7 +1083,7 @@
          </icon>
          <overview
                summary="%google.description"
-               url="http://code.google.com/eclipse/docs/users_guide.html">
+               url="https://code.google.com/eclipse/docs/users_guide.html">
          </overview>
       </connectorDescriptor>
 
@@ -1095,13 +1095,13 @@
             license="Free, ASL"
             name="DataNucleus Eclipse Plugin"
             provider="DataNucleus"
-            siteUrl="http://www.datanucleus.org/downloads/eclipse-update/">
+            siteUrl="https://www.datanucleus.org/downloads/eclipse-update/">
          <icon
                image32="images/datanucleus_32.png">
          </icon>
          <overview
                summary="%datanucleus.description"
-               url="http://www.datanucleus.org/download.html">
+               url="https://www.datanucleus.org/download.html">
          </overview>
       </connectorDescriptor>
 
@@ -1114,13 +1114,13 @@
             license="Commercial"
             name="Pivotal tc Server Developer Edition"
             provider="Pivotal Software, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/extensions/sts380">
+            siteUrl="https://download.springsource.com/release/TOOLS/extensions/sts380">
          <icon
                image32="images/spring.png">
          </icon>
          <overview
                summary="%tcserver.description"
-               url="http://www.pivotal.io/products/pivotal-tc-server">
+               url="https://pivotal.io/products">
          </overview>
       </connectorDescriptor>
 
@@ -1133,14 +1133,14 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.6.0)(platform.version&lt;=4.6.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.6">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.6">
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <icon
                image32="images/spring.png">
          </icon>
          <overview
                summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
+               url="https://pivotal.io/products">
          </overview>
       </connectorDescriptor>
 
@@ -1153,14 +1153,14 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.7">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.7">
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <icon
                image32="images/spring.png">
          </icon>
          <overview
                summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
+               url="https://pivotal.io/products">
          </overview>
       </connectorDescriptor>
 
@@ -1173,14 +1173,14 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.8.0)(platform.version&lt;=4.8.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.8">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.8">
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <icon
                image32="images/spring.png">
          </icon>
          <overview
                summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
+               url="https://pivotal.io/products">
          </overview>
       </connectorDescriptor>
 
@@ -1193,14 +1193,14 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.9.0)(platform.version&lt;=4.9.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.9">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.9">
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <icon
                image32="images/spring.png">
          </icon>
          <overview
                summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
+               url="https://pivotal.io/products">
          </overview>
       </connectorDescriptor>
 
@@ -1213,14 +1213,14 @@
             name="Pivotal tc Server Integration for Eclipse"
             provider="Pivotal Software, Inc."
             platformFilter="(&amp;(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
-			siteUrl="http://download.springsource.com/release/TOOLS/update/e4.10">
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.10">
          <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
          <icon
                image32="images/spring.png">
          </icon>
          <overview
                summary="%tcserver.description"
-               url="http://www.springsource.com/products/tcserver/devedition">
+               url="https://pivotal.io/products">
          </overview>
       </connectorDescriptor>
 
@@ -1232,7 +1232,7 @@
             license="Free, EPL"
             name="Subclipse"
             provider="tigris.org"
-            siteUrl="http://subclipse.tigris.org/update_1.6.x">
+            siteUrl="https://subclipse.tigris.org/update_1.6.x">
 		<iu id="org.tigris.subversion.subclipse" />
 		<iu id="org.tigris.subversion.subclipse.mylyn" />
   		<iu id="org.tigris.subversion.clientadapter.feature" />
@@ -1244,7 +1244,7 @@
                image32="images/svn_32.gif">
          </icon>
          <overview
-               url="http://subclipse.tigris.org/">
+               url="https://subclipse.tigris.org/">
          </overview>
       </connectorDescriptor>
 
@@ -1256,7 +1256,7 @@
             license="Free, EPL"
             name="Subversive"
             provider="Eclipse, Polarion"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/subversive">
+            siteUrl="https://download.springsource.com/release/TOOLS/third-party/subversive">
         <iu id="org.eclipse.team.svn" />
 		<iu id="org.eclipse.team.svn.mylyn" />
 		<iu id="org.eclipse.team.svn.resource.ignore.rules.jdt" />
@@ -1270,7 +1270,7 @@
                image32="images/subversive_32.gif">
          </icon>
          <overview
-               url="http://www.eclipse.org/subversive/">
+               url="https://www.eclipse.org/subversive/">
          </overview>
       </connectorDescriptor>
 
@@ -1283,7 +1283,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="Eclipse, Inc."
-            siteUrl="http://download.eclipse.org/cft/1.1.0/">
+            siteUrl="https://download.eclipse.org/cft/1.1.0/">
          <iu id="org.eclipse.cft.server.core.feature" />
          <iu id="org.eclipse.cft.server.ui.feature" />
          <icon
@@ -1291,7 +1291,7 @@
          </icon>
          <overview
                summary="%cloudfoundry.description"
-               url="http://www.cloudfoundry.org">
+               url="https://www.cloudfoundry.org">
          </overview>
       </connectorDescriptor>
 <!--      <connectorDescriptor
@@ -1303,7 +1303,7 @@
             name="VMforce Integration"
             platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
             provider="VMware, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/cloud">
+            siteUrl="https://download.springsource.com/release/TOOLS/third-party/cloud">
          <iu id="com.vmware.sts.server.vmforce" />
          <iu id="org.datanucleus.ide.eclipse.feature" />
          <icon
@@ -1311,7 +1311,7 @@
          </icon>
          <overview
                summary="%vmforce.description"
-               url="http://www.vmforce.com">
+               url="https://www.vmforce.com">
          </overview>
       </connectorDescriptor> -->
 <!--
@@ -1324,7 +1324,7 @@
             name="Patch for issue STS-1672, STS-1691"
             platformFilter="(com.springsource.sts.version&gt;=2.6.0)"
             provider="SpringSource, a division of VMware, Inc."
-            siteUrl="http://dist.springsource.com.s3.amazonaws.com/release/TOOLS/patches/e3.6/">
+            siteUrl="https://dist.springsource.com.s3.amazonaws.com/release/TOOLS/patches/e3.6/">
          <icon
                image32="images/springsource_32.png">
          </icon>
@@ -1344,12 +1344,12 @@
             name="Performance patch for Bug 386070"
             platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.1))"
             provider="SpringSource, a division of VMware, Inc."
-            siteUrl="http://download.springsource.com/release/TOOLS/patches/bug386070/">
+            siteUrl="https://download.springsource.com/release/TOOLS/patches/bug386070/">
          <icon
                image32="images/eclipse_32.gif">
          </icon>
          <overview
-         	   summary="Install this patch if you are having performance issues with STS, particularly on startup.  This is a performance issue with rendering of SWT icons.  The discussion was originaly here: http://forum.springsource.org/showthread.php?129319-STS-3-0-%28Really-Eclipse-Juno%29-is-slow"
+         	   summary="Install this patch if you are having performance issues with STS, particularly on startup.  This is a performance issue with rendering of SWT icons.  The discussion was originaly here: https://forum.springsource.org/showthread.php?129319-STS-3-0-%28Really-Eclipse-Juno%29-is-slow"
                url="https://bugs.eclipse.org/bugs/show_bug.cgi?id=386070">
          </overview>
       </connectorDescriptor>
@@ -1363,13 +1363,13 @@
             name="Eclipse Marketplace Client"
             provider="Eclipse EPP"
             platformFilter="(&amp;(platform.version&gt;=4.4.0)(platform.version&lt;=4.4.9))"
-            siteUrl="http://download.eclipse.org/releases/luna">
+            siteUrl="https://download.eclipse.org/releases/luna">
          <iu id="org.eclipse.epp.mpc" />
          <icon
                image32="images/eclipse_32.gif">
          </icon>
          <overview
-               url="http://www.eclipse.org/mpc/">
+               url="https://www.eclipse.org/mpc/">
          </overview>
       </connectorDescriptor>
 
@@ -1382,13 +1382,13 @@
             name="Scala IDE for Eclipse"
             platformFilter="(&amp;(platform.version&gt;=3.6.0)(platform.version&lt;=3.7.9))"
             provider="scala-ide.org (Scala IDE for Eclipse)"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/scala/e3.7">
+            siteUrl="https://download.springsource.com/release/TOOLS/third-party/scala/e3.7">
          <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
          </icon>
          <overview
-               url="http://www.scala-ide.org/">
+               url="https://www.scala-ide.org/">
          </overview>
       </connectorDescriptor>
       
@@ -1401,13 +1401,13 @@
             name="Scala IDE for Eclipse"
             platformFilter="(platform.version&gt;=3.8.0)"
             provider="scala-ide.org (Scala IDE for Eclipse)"
-            siteUrl="http://download.springsource.com/release/TOOLS/third-party/scala/e4.2">
+            siteUrl="https://download.springsource.com/release/TOOLS/third-party/scala/e4.2">
          <iu id="org.scala-ide.sdt.feature" />
          <icon
                image32="images/scala_32.png">
          </icon>
          <overview
-               url="http://www.scala-ide.org/">
+               url="https://www.scala-ide.org/">
          </overview>
       </connectorDescriptor>
 
@@ -1447,7 +1447,7 @@
                image32="images/adt.png">
          </icon>
          <overview
-               url="http://developer.android.com/tools/sdk/eclipse-adt.html">
+               url="https://developer.android.com/tools/sdk/eclipse-adt.html">
          </overview>
       </connectorDescriptor>
 
