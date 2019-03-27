@@ -487,33 +487,6 @@
          </overview>
       </connectorDescriptor>
 
-	  <!-- Spring Tools 4 Public Beta - Early Access Extension Pack -->
-<!--      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Spring Tools 4 Public Beta - Early Access Extension Pack"
-            id="org.springframework.tooling.boot.java.ls.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring Tools 4 Public Beta - Early Access Extension Pack"
-            provider="Pivotal Inc."
-            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.2)(platform.version&gt;=4.7.0)(platform.version&lt;=4.7.9))"
-			siteUrl="https://download.springsource.com/milestone/TOOLS/sts4-language-server-integrations/20180406/">
-         <iu id="org.springframework.tooling.boot.ls.feature" />
-         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature" />
-         <iu id="org.springframework.tooling.bosh.ls.feature" />
-         <iu id="org.springframework.tooling.concourse.ls.feature" />
-         <icon
-               image32="images/sts4-32.png">
-         </icon>
-         <overview
-               summary="The Spring Tools 4 Public Beta - Early Access Extension Pack allows you to install the latest public beta of the Spring Tools 4 features as
-			   an early-access feature into an existing STS 3.9.x installation. This is for early adopters that want to try the new Spring Tools 4 features and not meant
-			   for production use. Once the first full version of the Spring Tools 4 got released, we recommend to start with a fresh Spring Tools 4 distribution
-			   installation instead of adding Spring Tools 4 features into an existing STS 3.9.x installation.">
-         </overview>
-      </connectorDescriptor>-->
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Spring Tools 4 Add-On Extension Pack"
@@ -551,6 +524,32 @@
             provider="Pivotal Inc."
             platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.7)(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.10/">
+         <iu id="org.springframework.tooling.boot.ls.feature"/>
+         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
+         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
+         <iu id="org.springframework.tooling.bosh.ls.feature"/>
+         <iu id="org.springframework.tooling.concourse.ls.feature"/>
+         <icon
+               image32="images/sts4-32.png">
+         </icon>
+         <overview
+               summary="The Spring Tools 4 Add-On Extension Pack allows you to install the latest version of the Spring Tools 4 features as
+			   an add-on into an existing STS 3.9.x installation. Please keep in mind that this add-on is not meant for production use. We recommend to migrate
+			   to the full Spring Tools4 for Eclipse distribution instead as soon as possible.">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Spring Tools 4 Add-On Extension Pack"
+            id="org.springframework.tooling.boot.ls.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring Tools 4 Add-On Extension Pack"
+            provider="Pivotal Inc."
+            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.8)(platform.version&gt;=4.11.0)(platform.version&lt;=4.11.9))"
+			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.11/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
@@ -618,6 +617,26 @@
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.10.0)(platform.version&lt;=4.10.9))"
 			siteUrl="https://download.eclipse.org/releases/2018-12/">
+         <iu id="org.eclipse.buildship" />
+         <icon
+               image32="images/buildship.png">
+         </icon>
+         <overview
+               summary="Buildship: Gradle Support for Eclipse">
+         </overview>
+      </connectorDescriptor>
+	  
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Buildship 3: Gradle Support for Eclipse"
+            id="org.eclipse.buildship"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Buildship 2"
+            provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.11.0)(platform.version&lt;=4.11.9))"
+			siteUrl="https://download.eclipse.org/releases/2019-03/">
          <iu id="org.eclipse.buildship" />
          <icon
                image32="images/buildship.png">
@@ -783,6 +802,37 @@
                summary="Full-featured support for working with Spring projects.">
          </overview>
       </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Full-featured support for working with Spring projects"
+            id="org.springframework.ide.eclipse.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring IDE"
+            provider="Pivotal Software, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.11.0)(platform.version&lt;=4.11.9))"
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.11">
+         <iu id="org.springframework.ide.eclipse.feature" />
+         <iu id="org.springframework.ide.eclipse.aop.feature" />
+         <iu id="org.springframework.ide.eclipse.ajdt.feature" />
+         <iu id="org.springframework.ide.eclipse.security.feature" />
+         <iu id="org.springframework.ide.eclipse.webflow.feature" />
+         <iu id="org.springframework.ide.eclipse.batch.feature" />
+         <iu id="org.springframework.ide.eclipse.integration.feature" />
+         <iu id="org.springframework.ide.eclipse.autowire.feature" />
+         <iu id="org.springframework.ide.eclipse.mylyn.feature" />
+         <iu id="org.springframework.ide.eclipse.maven.feature" />
+         <iu id="org.springframework.ide.eclipse.data.feature" />
+         <iu id="org.springframework.ide.eclipse.boot.dash.feature" />
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="Full-featured support for working with Spring projects.">
+         </overview>
+      </connectorDescriptor>
       <!-- END Spring-IDE -->
 
       <!-- BEGIN Spring-IDE Roo Extension-->
@@ -880,6 +930,25 @@
                summary="Spring IDE Extension to support Spring Roo development from within the IDE">
          </overview>
       </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Spring IDE Extension to support Spring Roo development from within the IDE"
+            id="org.springframework.ide.eclipse.roo.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring IDE - Roo Extension"
+            provider="Pivotal Software, Inc., Disid"
+            platformFilter="(&amp;(platform.version&gt;=4.11.0)(platform.version&lt;=4.11.9))"
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.11">
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="Spring IDE Extension to support Spring Roo development from within the IDE">
+         </overview>
+      </connectorDescriptor>
       <!-- END Spring-IDE Roo Extension-->
 
       <connectorDescriptor
@@ -901,42 +970,6 @@
                url="https://www.springsource.org/roo">
          </overview>
       </connectorDescriptor>
-      <!--<connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.frameworks"
-            description="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
-            id="org.springframework.roo.bundle.development"
-            kind="task, document"
-            groupId="certified"
-            license="Free, GPL v3"
-            name="Spring Roo (1.1 snapshot release)"
-            provider="SpringSource, a division of VMware, Inc."
-            siteUrl="https://download.springsource.com/release/TOOLS/extensions/e3.5">
-         <icon
-               image32="images/spring_roo_32.png">
-         </icon>
-         <overview
-               summary="Spring Roo is a next-generation rapid application development tool for Java developers. With Roo you can easily build full Java applications in minutes."
-               url="https://www.springsource.org/roo">
-         </overview>
-      </connectorDescriptor>-->
-<!--      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.frameworks"
-            description="Grails is a high-productivity web framework based on the Groovy language that embraces the coding by convention paradigm."
-            id="org.codehaus.grails.bundle"
-            kind="task"
-            groupId="bundled"
-            license="Free, ASL"
-            name="Grails (current production release)"
-            provider="Pivotal Software, Inc."
-            siteUrl="https://download.springsource.com/release/TOOLS/extensions/sts380">
-         <icon
-               image32="images/grails_32.png">
-         </icon>
-         <overview
-               summary="Grails is a high-productivity web framework based on the Groovy language that embraces the coding by convention paradigm."
-               url="https://www.grails.org">
-         </overview>
-      </connectorDescriptor>-->
 
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
@@ -1225,6 +1258,26 @@
       </connectorDescriptor>
 
       <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.runtimes"
+            description="Pivotal tc Server Integration for Eclipse"
+            id="com.vmware.vfabric.ide.eclipse.tcserver"
+            kind="task"
+            license="Free, EPL"
+            name="Pivotal tc Server Integration for Eclipse"
+            provider="Pivotal Software, Inc."
+            platformFilter="(&amp;(platform.version&gt;=4.11.0)(platform.version&lt;=4.11.9))"
+			siteUrl="https://download.springsource.com/release/TOOLS/update/e4.11">
+         <iu id="com.vmware.vfabric.ide.eclipse.tcserver" />
+         <icon
+               image32="images/spring.png">
+         </icon>
+         <overview
+               summary="%tcserver.description"
+               url="https://pivotal.io/products">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.SourceCodeManagement"
             description="Subclipse is a team provider plug-in providing support for Subversion (SVN) within the IDE."
             id="org.tigris.subversion.subclipse"
@@ -1283,7 +1336,7 @@
             name="Cloud Foundry Integration for Eclipse"
             platformFilter="(com.springsource.sts.version&gt;=2.9.0)"
             provider="Eclipse, Inc."
-            siteUrl="https://download.eclipse.org/cft/1.1.0/">
+            siteUrl="https://download.eclipse.org/cft/1.2.0/">
          <iu id="org.eclipse.cft.server.core.feature" />
          <iu id="org.eclipse.cft.server.ui.feature" />
          <icon
@@ -1294,66 +1347,7 @@
                url="https://www.cloudfoundry.org">
          </overview>
       </connectorDescriptor>
-<!--      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.runtimes"
-            description="The integration supports deploying of projects and managing of VMforce deployments."
-            kind="task"
-            id="com.vmware.sts.server.vmforce"
-            license="Free, Commercial"
-            name="VMforce Integration"
-            platformFilter="(com.springsource.sts.version&gt;=2.5.1)"
-            provider="VMware, Inc."
-            siteUrl="https://download.springsource.com/release/TOOLS/third-party/cloud">
-         <iu id="com.vmware.sts.server.vmforce" />
-         <iu id="org.datanucleus.ide.eclipse.feature" />
-         <icon
-               image32="images/vmforce_32.png">
-         </icon>
-         <overview
-               summary="%vmforce.description"
-               url="https://www.vmforce.com">
-         </overview>
-      </connectorDescriptor> -->
-<!--
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.patches"
-            description="Fixes an issue with Xerces and Commons Logging classloading while parsing Spring XML files."
-            kind="task"
-            id="com.springsource.sts.patch"
-            license="Free, Commercial"
-            name="Patch for issue STS-1672, STS-1691"
-            platformFilter="(com.springsource.sts.version&gt;=2.6.0)"
-            provider="SpringSource, a division of VMware, Inc."
-            siteUrl="https://dist.springsource.com.s3.amazonaws.com/release/TOOLS/patches/e3.6/">
-         <icon
-               image32="images/springsource_32.png">
-         </icon>
-         <overview
-         	   summary="See the 'Learn More' for more information on the bug."
-               url="https://issuetracker.springsource.com/browse/STS-1672">
-         </overview>
-      </connectorDescriptor>
--->
-<!--
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.patches"
-            description="Fixes a performance issue with Eclipse 4.2 and STS 3.0.0."
-            kind="task"
-            id="org.eclipse.e4.ui.workbench.renderers.swt.patch.bug386070"
-            license="EPL"
-            name="Performance patch for Bug 386070"
-            platformFilter="(&amp;(platform.version&gt;=4.2.0)(platform.version&lt;=4.2.1))"
-            provider="SpringSource, a division of VMware, Inc."
-            siteUrl="https://download.springsource.com/release/TOOLS/patches/bug386070/">
-         <icon
-               image32="images/eclipse_32.gif">
-         </icon>
-         <overview
-         	   summary="Install this patch if you are having performance issues with STS, particularly on startup.  This is a performance issue with rendering of SWT icons.  The discussion was originaly here: https://forum.springsource.org/showthread.php?129319-STS-3-0-%28Really-Eclipse-Juno%29-is-slow"
-               url="https://bugs.eclipse.org/bugs/show_bug.cgi?id=386070">
-         </overview>
-      </connectorDescriptor>
--->
+
       <connectorDescriptor
             categoryId="org.eclipse.mylyn.discovery.directory.categories.Utilities"
             description="Client to install components from the Eclipse Marketplace. Pivotal does not make any guarantees for those components."
