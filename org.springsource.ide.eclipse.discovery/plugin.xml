@@ -500,7 +500,6 @@
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.9/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
-         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
          <iu id="org.springframework.tooling.bosh.ls.feature"/>
          <iu id="org.springframework.tooling.concourse.ls.feature"/>
          <icon
@@ -526,7 +525,6 @@
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.10/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
-         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
          <iu id="org.springframework.tooling.bosh.ls.feature"/>
          <iu id="org.springframework.tooling.concourse.ls.feature"/>
          <icon
@@ -552,7 +550,6 @@
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.11/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
-         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
          <iu id="org.springframework.tooling.bosh.ls.feature"/>
          <iu id="org.springframework.tooling.concourse.ls.feature"/>
          <icon
@@ -578,7 +575,6 @@
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.12/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
-         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.integration.feature"/>
          <iu id="org.springframework.tooling.bosh.ls.feature"/>
          <iu id="org.springframework.tooling.concourse.ls.feature"/>
          <icon
