@@ -56,32 +56,7 @@
             license="Free, EPL"
             name="Spring Tools 4 Add-On Extension Pack"
             provider="Pivotal Inc."
-            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.13)(platform.version&gt;=4.14.0)(platform.version&lt;=4.14.9))"
-			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.14/">
-         <iu id="org.springframework.tooling.boot.ls.feature"/>
-         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
-         <iu id="org.springframework.tooling.bosh.ls.feature"/>
-         <iu id="org.springframework.tooling.concourse.ls.feature"/>
-         <icon
-               image32="images/sts4-32.png">
-         </icon>
-         <overview
-               summary="The Spring Tools 4 Add-On Extension Pack allows you to install the latest version of the Spring Tools 4 features as
-			   an add-on into an existing STS 3.9.x installation. Please keep in mind that this add-on is not meant for production use. We recommend to migrate
-			   to the full Spring Tools4 for Eclipse distribution instead as soon as possible.">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Spring Tools 4 Add-On Extension Pack"
-            id="org.springframework.tooling.boot.ls.feature"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Spring Tools 4 Add-On Extension Pack"
-            provider="Pivotal Inc."
-            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.13)(platform.version&gt;=4.15.0)(platform.version&lt;=4.15.9))"
+            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.14)(platform.version&gt;=4.15.0)(platform.version&lt;=4.15.9))"
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.15/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
@@ -106,7 +81,7 @@
             license="Free, EPL"
             name="Spring Tools 4 Add-On Extension Pack"
             provider="Pivotal Inc."
-            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.13)(platform.version&gt;=4.16.0)(platform.version&lt;=4.16.9))"
+            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.14)(platform.version&gt;=4.16.0)(platform.version&lt;=4.16.9))"
 			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.16/">
          <iu id="org.springframework.tooling.boot.ls.feature"/>
          <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
@@ -122,47 +97,32 @@
          </overview>
       </connectorDescriptor>
 
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Spring Tools 4 Add-On Extension Pack"
+            id="org.springframework.tooling.boot.ls.feature"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Spring Tools 4 Add-On Extension Pack"
+            provider="Pivotal Inc."
+            platformFilter="(&amp;(com.springsource.sts.version&gt;=3.9.14)(platform.version&gt;=4.17.0)(platform.version&lt;=4.17.9))"
+			siteUrl="https://download.springsource.com/release/TOOLS/sts4/update/e4.17/">
+         <iu id="org.springframework.tooling.boot.ls.feature"/>
+         <iu id="org.springframework.tooling.cloudfoundry.manifest.ls.feature"/>
+         <iu id="org.springframework.tooling.bosh.ls.feature"/>
+         <iu id="org.springframework.tooling.concourse.ls.feature"/>
+         <icon
+               image32="images/sts4-32.png">
+         </icon>
+         <overview
+               summary="The Spring Tools 4 Add-On Extension Pack allows you to install the latest version of the Spring Tools 4 features as
+			   an add-on into an existing STS 3.9.x installation. Please keep in mind that this add-on is not meant for production use. We recommend to migrate
+			   to the full Spring Tools4 for Eclipse distribution instead as soon as possible.">
+         </overview>
+      </connectorDescriptor>
+
       <!-- BEGIN Buildship -->
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Buildship 3: Gradle Support for Eclipse"
-            id="org.eclipse.buildship"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Buildship 3"
-            provider="Eclipse Foundation"
-            platformFilter="(&amp;(platform.version&gt;=4.13.0)(platform.version&lt;=4.13.9))"
-			siteUrl="https://download.eclipse.org/releases/2019-09/">
-         <iu id="org.eclipse.buildship" />
-         <icon
-               image32="images/buildship.png">
-         </icon>
-         <overview
-               summary="Buildship: Gradle Support for Eclipse">
-         </overview>
-      </connectorDescriptor>
-
-      <connectorDescriptor
-            categoryId="com.springsource.sts.discovery-directory.framework.support"
-            description="Buildship 3: Gradle Support for Eclipse"
-            id="org.eclipse.buildship"
-            kind="task"
-            groupId="certified"
-            license="Free, EPL"
-            name="Buildship 3"
-            provider="Eclipse Foundation"
-            platformFilter="(&amp;(platform.version&gt;=4.14.0)(platform.version&lt;=4.14.9))"
-			siteUrl="https://download.eclipse.org/releases/2019-12/">
-         <iu id="org.eclipse.buildship" />
-         <icon
-               image32="images/buildship.png">
-         </icon>
-         <overview
-               summary="Buildship: Gradle Support for Eclipse">
-         </overview>
-      </connectorDescriptor>
-
       <connectorDescriptor
             categoryId="com.springsource.sts.discovery-directory.framework.support"
             description="Buildship 3: Gradle Support for Eclipse"
@@ -194,6 +154,26 @@
             provider="Eclipse Foundation"
             platformFilter="(&amp;(platform.version&gt;=4.16.0)(platform.version&lt;=4.16.9))"
 			siteUrl="https://download.eclipse.org/releases/2020-06/">
+         <iu id="org.eclipse.buildship" />
+         <icon
+               image32="images/buildship.png">
+         </icon>
+         <overview
+               summary="Buildship: Gradle Support for Eclipse">
+         </overview>
+      </connectorDescriptor>
+
+      <connectorDescriptor
+            categoryId="com.springsource.sts.discovery-directory.framework.support"
+            description="Buildship 3: Gradle Support for Eclipse"
+            id="org.eclipse.buildship"
+            kind="task"
+            groupId="certified"
+            license="Free, EPL"
+            name="Buildship 3"
+            provider="Eclipse Foundation"
+            platformFilter="(&amp;(platform.version&gt;=4.17.0)(platform.version&lt;=4.17.9))"
+			siteUrl="https://download.eclipse.org/releases/2020-09/">
          <iu id="org.eclipse.buildship" />
          <icon
                image32="images/buildship.png">
